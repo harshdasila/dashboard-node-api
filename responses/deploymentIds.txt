@@ -1,0 +1,156 @@
+{
+      "statusCode": 200,
+      "statusMessage": "Success",
+      "statusDescription": "Application Deployment Ids fecthed successfully",
+      "dateTime": "2024-07-16T10:10:27.774Z",
+      "transactionId": "f403dc3b-85a9-4161-b3b5-a2f3a4ded2b2",
+      "data": [
+        {
+          "deploymentId": "6683f431ac029d500b13efb5",
+          "createTime": "2024-07-02T12:36:01.660Z",
+          "startTime": "2024-07-02T12:36:04.279Z",
+          "endTime": "2024-07-02T12:39:22.126Z",
+          "instances": [
+            {
+              "instanceId": "6683f431ac029d500b13efb5-1",
+              "publicIPAddress": "34.219.189.132",
+              "status": "TERMINATED",
+              "region": "us-west-2"
+            },
+            {
+              "instanceId": "6683f431ac029d500b13efb5-0",
+              "publicIPAddress": "35.165.206.24",
+              "status": "TERMINATED",
+              "region": "us-west-2"
+            }
+          ]
+        },
+        {
+          "deploymentId": "668522d0057c3b138e5ce422",
+          "createTime": "2024-07-03T10:07:12.771Z",
+          "startTime": "2024-07-03T10:07:16.510Z",
+          "endTime": "2024-07-03T10:10:20.035Z",
+          "instances": [
+            {
+              "instanceId": "668522d0057c3b138e5ce422-0",
+              "publicIPAddress": "35.92.6.148",
+              "status": "TERMINATED",
+              "region": "us-west-2"
+            }
+          ]
+        },
+        {
+          "deploymentId": "667e7ab84017e26d5ccda97a",
+          "createTime": "2024-06-28T08:56:24.462Z",
+          "startTime": "2024-06-28T08:56:27.259Z",
+          "endTime": "2024-06-28T09:02:23.011Z",
+          "instances": [
+            {
+              "instanceId": "667e7ab84017e26d5ccda97a-0",
+              "publicIPAddress": "35.162.34.71",
+              "status": "TERMINATED",
+              "region": "us-west-2"
+            }
+          ]
+        },
+        {
+          "deploymentId": "668521c98ee08f0f92b04115",
+          "createTime": "2024-07-03T10:02:49.004Z",
+          "startTime": "2024-07-03T10:02:51.878Z",
+          "endTime": "2024-07-03T10:05:51.344Z",
+          "instances": [
+            {
+              "instanceId": "668521c98ee08f0f92b04115-0",
+              "publicIPAddress": "34.221.84.251",
+              "status": "TERMINATED",
+              "region": "us-west-2"
+            }
+          ]
+        },
+        {
+          "deploymentId": "6687b4c051f4211bf013a522",
+          "createTime": "2024-07-05T08:54:24.406Z",
+          "startTime": "2024-07-05T08:54:25.711Z",
+          "endTime": "2024-07-05T09:00:18.562Z",
+          "instances": [
+            {
+              "instanceId": "6687b4c051f4211bf013a522-0",
+              "publicIPAddress": "35.87.233.155",
+              "status": "TERMINATED",
+              "region": "us-west-2"
+            }
+          ]
+        },
+        {
+          "deploymentId": "66869596057c3b138e5af342",
+          "createTime": "2024-07-04T12:29:10.996Z",
+          "startTime": "2024-07-04T12:29:14.473Z",
+          "endTime": "2024-07-04T12:34:59.540Z",
+          "instances": [
+            {
+              "instanceId": "66869596057c3b138e5af342-0",
+              "publicIPAddress": "54.190.59.171",
+              "status": "TERMINATED",
+              "region": "us-west-2"
+            }
+          ]
+        },
+        {
+          "deploymentId": "6686aee82c46eb588e52a99b",
+          "createTime": "2024-07-04T14:17:12.627Z",
+          "startTime": "2024-07-04T14:17:14.136Z",
+          "endTime": "2024-07-04T14:23:09.800Z",
+          "instances": [
+            {
+              "instanceId": "6686aee82c46eb588e52a99b-0",
+              "publicIPAddress": "54.203.16.47",
+              "status": "TERMINATED",
+              "region": "us-west-2"
+            }
+          ]
+        },
+        {
+          "deploymentId": "668c1f0ded535a0d02a5dfa4",
+          "createTime": "2024-07-08T17:17:01.648Z",
+          "startTime": "2024-07-08T17:17:02.906Z",
+          "endTime": "2024-07-08T17:23:18.018Z",
+          "instances": [
+            {
+              "instanceId": "668c1f0ded535a0d02a5dfa4-0",
+              "publicIPAddress": "35.91.177.175",
+              "status": "STARTED",
+              "region": "us-west-2"
+            }
+          ]
+        },
+        {
+          "deploymentId": "667e793734cd22387782860c",
+          "createTime": "2024-06-28T08:49:59.929Z",
+          "startTime": "2024-06-28T08:50:03.154Z",
+          "endTime": "2024-06-28T08:56:15.046Z",
+          "instances": [
+            {
+              "instanceId": "667e793734cd22387782860c-0",
+              "publicIPAddress": "54.69.73.112",
+              "status": "TERMINATED",
+              "region": "us-west-2"
+            }
+          ]
+        },
+        {
+          "deploymentId": "66850e29948eb31314e34126",
+          "createTime": "2024-07-03T08:39:05.049Z",
+          "startTime": "2024-07-03T08:39:09.072Z",
+          "endTime": "2024-07-03T08:42:14.579Z",
+          "instances": [
+            {
+              "instanceId": "66850e29948eb31314e34126-0",
+              "publicIPAddress": "35.85.255.67",
+              "status": "TERMINATED",
+              "region": "us-west-2"
+            }
+          ]
+        }
+      ],
+      "total": 126
+    }

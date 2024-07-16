@@ -1,0 +1,812 @@
+{
+        "statusCode": 200,
+        "statusMessage": "Success",
+        "statusDescription": "Application Logs by instance id are fetched successfully",
+        "dateTime": "2024-07-16T10:10:29.8Z",
+        "transactionId": "18120077-3c7b-47bd-9ae1-2e72ee7e3884",
+        "data": {
+            "data": [
+                {
+                    "loggerName": "com.mulesoft.ch.queue.boot.PersistentQueueCoreExtension",
+                    "threadName": "qtp1716507329-38",
+                    "timestamp": 1720459142688,
+                    "message": "The PersistentQueueManager is NOT configured. The normal VM queue manager will be used.",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "com.mulesoft.modules.configuration.properties.internal.SecureConfigurationPropertiesProvider",
+                    "threadName": "qtp1716507329-38",
+                    "timestamp": 1720459157573,
+                    "message": "Secure Properties file has non-encrypted values. Check file 'environments/dev.properties'. Remember to encrypt properties or use file-level encryption before going into productive environment",
+                    "priority": "WARN",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.config.internal.MuleArtifactContext",
+                    "threadName": "qtp1716507329-38",
+                    "timestamp": 1720459157925,
+                    "message": "[global-elements.xml:20]: Setting insecure to true renders connections vulnerable to attack. Use it only for prototyping or testing. Never use it in production environments.",
+                    "priority": "WARN",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.module.tls.internal.DefaultTlsContextFactory",
+                    "threadName": "qtp1716507329-38",
+                    "timestamp": 1720459167625,
+                    "message": "TLS context  trust store set as insecure. No certificate validations will be performed, rendering connections vulnerable to attacks. Use at own risk.",
+                    "priority": "WARN",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.api.message.AbstractMuleMessageBuilderFactory",
+                    "threadName": "qtp1716507329-38",
+                    "timestamp": 1720459167928,
+                    "message": "Loaded MuleMessageBuilderFactory implementation 'org.mule.runtime.core.internal.message.DefaultMessageBuilderFactory' from classloader 'org.mule.runtime.module.reboot.internal.MuleContainerSystemClassLoader@2602711c'",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.api.el.AbstractBindingContextBuilderFactory",
+                    "threadName": "qtp1716507329-38",
+                    "timestamp": 1720459168046,
+                    "message": "Loaded BindingContextBuilderFactory implementation 'org.mule.runtime.core.api.el.DefaultBindingContextBuilderFactory' from classloader 'org.mule.runtime.module.reboot.internal.MuleContainerSystemClassLoader@2602711c'",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.security.tls.TlsProperties",
+                    "threadName": "qtp1716507329-38",
+                    "timestamp": 1720459168119,
+                    "message": "Loading configuration file: tls-default.conf",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.api.tls.AbstractTlsContextFactoryBuilderFactory",
+                    "threadName": "qtp1716507329-38",
+                    "timestamp": 1720459168122,
+                    "message": "Loaded TlsContextFactoryBuilderFactory implementation 'org.mule.runtime.module.tls.api.DefaultTlsContextFactoryBuilderFactory' from classloader 'org.mule.runtime.module.reboot.internal.MuleContainerSystemClassLoader@2602711c'",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.util.journal.TransactionJournal",
+                    "threadName": "qtp1716507329-38",
+                    "timestamp": 1720459185081,
+                    "message": "Using files for tx logs /opt/mule/mule-4.4.0/./.mule/workday-to-wdh-user-sync-dev/queue-tx-log/tx1.log and /opt/mule/mule-4.4.0/./.mule/workday-to-wdh-user-sync-dev/queue-tx-log/tx2.log",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.util.journal.TransactionJournal",
+                    "threadName": "qtp1716507329-38",
+                    "timestamp": 1720459185104,
+                    "message": "Using files for tx logs /opt/mule/mule-4.4.0/./.mule/workday-to-wdh-user-sync-dev/queue-xa-tx-log/tx1.log and /opt/mule/mule-4.4.0/./.mule/workday-to-wdh-user-sync-dev/queue-xa-tx-log/tx2.log",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.privileged.lifecycle.AbstractLifecycleManager",
+                    "threadName": "qtp1716507329-38",
+                    "timestamp": 1720459185360,
+                    "message": "Initialising Bean: org.mule.runtime.module.extension.internal.runtime.config.ConfigurationProviderToolingAdapter-HTTP_Request_configuration_imf",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.security.tls.TlsProperties",
+                    "threadName": "qtp1716507329-38",
+                    "timestamp": 1720459185649,
+                    "message": "Loading configuration file: tls-default.conf",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.privileged.lifecycle.AbstractLifecycleManager",
+                    "threadName": "qtp1716507329-38",
+                    "timestamp": 1720459185797,
+                    "message": "Initialising Bean: org.mule.runtime.module.extension.internal.runtime.config.ConfigurationProviderToolingAdapter-Email_SMTP",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.privileged.lifecycle.AbstractLifecycleManager",
+                    "threadName": "qtp1716507329-38",
+                    "timestamp": 1720459186161,
+                    "message": "Initialising Bean: org.mule.runtime.module.extension.internal.runtime.config.ConfigurationProviderToolingAdapter-WDH_Database_Config",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "com.mchange.v2.log.MLog",
+                    "threadName": "MLog-Init-Reporter",
+                    "timestamp": 1720459186323,
+                    "message": "MLog clients using slf4j logging.",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "com.mchange.v2.c3p0.C3P0Registry",
+                    "threadName": "qtp1716507329-38",
+                    "timestamp": 1720459186504,
+                    "message": "Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.privileged.lifecycle.AbstractLifecycleManager",
+                    "threadName": "qtp1716507329-38",
+                    "timestamp": 1720459186657,
+                    "message": "Initialising Bean: org.mule.runtime.module.extension.internal.runtime.config.ConfigurationProviderToolingAdapter-S3_bucket_SFTP_Config",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.construct.FlowConstructLifecycleManager",
+                    "threadName": "qtp1716507329-38",
+                    "timestamp": 1720459192260,
+                    "message": "Initialising flow: logger-sub",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.construct.FlowConstructLifecycleManager",
+                    "threadName": "qtp1716507329-38",
+                    "timestamp": 1720459194180,
+                    "message": "Initialising flow: workday-to-wdh-supervisor-org-hierarchy-sync-main",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.privileged.lifecycle.AbstractLifecycleManager",
+                    "threadName": "qtp1716507329-38",
+                    "timestamp": 1720459194386,
+                    "message": "Initialising Bean: org.mule.runtime.module.extension.internal.runtime.config.ConfigurationProviderToolingAdapter-Validation-config-implicit",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.construct.FlowConstructLifecycleManager",
+                    "threadName": "qtp1716507329-38",
+                    "timestamp": 1720459194763,
+                    "message": "Initialising flow: workday-to-wdh-job-change-main",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.construct.FlowConstructLifecycleManager",
+                    "threadName": "qtp1716507329-38",
+                    "timestamp": 1720459194801,
+                    "message": "Initialising flow: workday-to-wdh-termination-main",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.construct.FlowConstructLifecycleManager",
+                    "threadName": "qtp1716507329-38",
+                    "timestamp": 1720459194845,
+                    "message": "Initialising flow: workday-to-wdh-long-term-time-off-sync-main",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.construct.FlowConstructLifecycleManager",
+                    "threadName": "qtp1716507329-38",
+                    "timestamp": 1720459194929,
+                    "message": "Initialising flow: workday-to-wdh-bcp-group-user-sync",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.construct.FlowConstructLifecycleManager",
+                    "threadName": "qtp1716507329-38",
+                    "timestamp": 1720459195132,
+                    "message": "Initialising flow: workday-to-wdh-new-hire-main",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.construct.FlowConstructLifecycleManager",
+                    "threadName": "qtp1716507329-38",
+                    "timestamp": 1720459195202,
+                    "message": "Initialising flow: workday-to-wdh-short-term-time-off-sync-main",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "com.mulesoft.mule.runtime.gw.policies.lifecyle.GateKeeper",
+                    "threadName": "qtp1716507329-38",
+                    "timestamp": 1720459196044,
+                    "message": "GateKeeper started in FLEXIBLE mode",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "com.mulesoft.mule.runtime.gw.client.provider.ApiPlatformClientProvider",
+                    "threadName": "qtp1716507329-38",
+                    "timestamp": 1720459196989,
+                    "message": "Client ID and Client Secret successfully validated against API Manager.",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "com.mulesoft.ch.batch.BatchCoreExtension",
+                    "threadName": "qtp1716507329-38",
+                    "timestamp": 1720459197245,
+                    "message": "Persistent queues is not enabled for batch module as it was not configured in Cloudhub console",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.util.queue.QueueXaResourceManager",
+                    "threadName": "ArtifactDeployer.start.01",
+                    "timestamp": 1720459197331,
+                    "message": "Starting ResourceManager",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.util.queue.QueueXaResourceManager",
+                    "threadName": "ArtifactDeployer.start.01",
+                    "timestamp": 1720459197332,
+                    "message": "Started ResourceManager",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.privileged.lifecycle.AbstractLifecycleManager",
+                    "threadName": "ArtifactDeployer.start.01",
+                    "timestamp": 1720459197349,
+                    "message": "Starting Bean: org.mule.runtime.module.extension.internal.runtime.config.ConfigurationProviderToolingAdapter-HTTP_Request_configuration_imf",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.service.http.impl.service.client.GrizzlyHttpClient",
+                    "threadName": "[MuleRuntime].uber.02: [workday-to-wdh-user-sync-dev].uber@org.mule.runtime.core.internal.connection.DefaultConnectivityTesterFactory$1.testConnectivity:81 @25070b47",
+                    "timestamp": 1720459197820,
+                    "message": "TLS configuration for client http.requester.HTTP_Request_configuration_imf has been set to use an insecure trust store. This means no certificate validations will be performed, rendering connections vulnerable to attacks. Use at own risk.",
+                    "priority": "WARN",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.privileged.lifecycle.AbstractLifecycleManager",
+                    "threadName": "ArtifactDeployer.start.01",
+                    "timestamp": 1720459197950,
+                    "message": "Starting Bean: org.mule.runtime.module.extension.internal.runtime.config.ConfigurationProviderToolingAdapter-Email_SMTP",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.privileged.lifecycle.AbstractLifecycleManager",
+                    "threadName": "ArtifactDeployer.start.01",
+                    "timestamp": 1720459197962,
+                    "message": "Starting Bean: org.mule.runtime.module.extension.internal.runtime.config.ConfigurationProviderToolingAdapter-WDH_Database_Config",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource",
+                    "threadName": "[MuleRuntime].uber.02: [workday-to-wdh-user-sync-dev].uber@org.mule.runtime.core.internal.connection.DefaultConnectivityTesterFactory$1.testConnectivity:81 @6b4db911",
+                    "timestamp": 1720459198003,
+                    "message": "Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@80fdc993 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@f056bcaa [ acquireIncrement -> 1, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, debugUnreturnedConnectionStackTraces -> false, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 2w9cn4b414vxa84lrlo37|54b70751, idleConnectionTestPeriod -> 0, initialPoolSize -> 1, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 20, maxStatements -> 0, maxStatementsPerConnection -> 5, minPoolSize -> 1, nestedDataSource -> StandardDataSource:\n     driver=<null>\n     url=<jdbc:postgresql://database-1.cluster-cjv7jq092xxt.us-west-2.rds.amazonaws.com:5432/WDH>\n     user=<wdh_support_dev>\nCoreDataSource :\n     debug =<false>\n     description =<null>\n     login time out =<60>\n     user =<wdh_support_dev>\n     verbose =<false>\n, preferredTestQuery -> null, privilegeSpawnedThreads -> false, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 2w9cn4b414vxa84lrlo37|77af4a84, numHelperThreads -> 3 ]",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.privileged.lifecycle.AbstractLifecycleManager",
+                    "threadName": "ArtifactDeployer.start.01",
+                    "timestamp": 1720459198596,
+                    "message": "Starting Bean: org.mule.runtime.module.extension.internal.runtime.config.ConfigurationProviderToolingAdapter-S3_bucket_SFTP_Config",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.privileged.lifecycle.AbstractLifecycleManager",
+                    "threadName": "ArtifactDeployer.start.01",
+                    "timestamp": 1720459198606,
+                    "message": "Starting Bean: org.mule.runtime.module.extension.internal.runtime.config.ConfigurationProviderToolingAdapter-Validation-config-implicit",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.construct.FlowConstructLifecycleManager",
+                    "threadName": "ArtifactDeployer.start.01",
+                    "timestamp": 1720459198609,
+                    "message": "Starting flow: workday-to-wdh-supervisor-org-hierarchy-sync-main",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.privileged.lifecycle.AbstractLifecycleManager",
+                    "threadName": "ArtifactDeployer.start.01",
+                    "timestamp": 1720459201230,
+                    "message": "Initialising Bean: org.mule.runtime.module.extension.internal.runtime.config.ConfigurationProviderToolingAdapter-XML-config-implicit",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.privileged.lifecycle.AbstractLifecycleManager",
+                    "threadName": "ArtifactDeployer.start.01",
+                    "timestamp": 1720459201300,
+                    "message": "Starting Bean: org.mule.runtime.module.extension.internal.runtime.config.ConfigurationProviderToolingAdapter-XML-config-implicit",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.construct.FlowConstructLifecycleManager",
+                    "threadName": "ArtifactDeployer.start.01",
+                    "timestamp": 1720459205323,
+                    "message": "Starting flow: workday-to-wdh-job-change-main",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.construct.FlowConstructLifecycleManager",
+                    "threadName": "ArtifactDeployer.start.01",
+                    "timestamp": 1720459206030,
+                    "message": "Starting flow: workday-to-wdh-termination-main",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.construct.FlowConstructLifecycleManager",
+                    "threadName": "ArtifactDeployer.start.01",
+                    "timestamp": 1720459206694,
+                    "message": "Starting flow: workday-to-wdh-long-term-time-off-sync-main",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.construct.FlowConstructLifecycleManager",
+                    "threadName": "ArtifactDeployer.start.01",
+                    "timestamp": 1720459207484,
+                    "message": "Starting flow: workday-to-wdh-bcp-group-user-sync",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.construct.FlowConstructLifecycleManager",
+                    "threadName": "ArtifactDeployer.start.01",
+                    "timestamp": 1720459208243,
+                    "message": "Starting flow: workday-to-wdh-new-hire-main",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.construct.FlowConstructLifecycleManager",
+                    "threadName": "ArtifactDeployer.start.01",
+                    "timestamp": 1720459208855,
+                    "message": "Starting flow: workday-to-wdh-short-term-time-off-sync-main",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.construct.FlowConstructLifecycleManager",
+                    "threadName": "ArtifactDeployer.start.01",
+                    "timestamp": 1720459209700,
+                    "message": "Starting flow: logger-sub",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "com.mulesoft.agent.services.application.AgentApplicationService",
+                    "threadName": "ArtifactDeployer.start.01",
+                    "timestamp": 1720459210208,
+                    "message": "Loading application configuration from fragment: mule.agent.application.properties.service",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "com.mulesoft.agent.services.administration.components.ComponentManager",
+                    "threadName": "ArtifactDeployer.start.01",
+                    "timestamp": 1720459210222,
+                    "message": "Re-enabling component: mule.agent.application.properties.service",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.logging.LogUtil",
+                    "threadName": "ArtifactDeployer.start.01",
+                    "timestamp": 1720459210224,
+                    "message": "\n**********************************************************************\n* Application: workday-to-wdh-user-sync-dev                          *\n* OS encoding: UTF-8, Mule encoding: UTF-8                           *\n*                                                                    *\n**********************************************************************",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.processor.LoggerMessageProcessor",
+                    "threadName": "[MuleRuntime].uber.01: [workday-to-wdh-user-sync-dev].workday-to-wdh-bcp-group-user-sync.CPU_LITE @3c7a2943",
+                    "timestamp": 1720469409970,
+                    "message": "event:139587e0-3d66-11ef-9e95-069e6a2ec265 ---------Workday To WDH BCP Flow Started at 2024-07-08T20:10:09.872Z,ExecutionId:3a903343-eb99-4b8b-a24a-b66b46cbcd80--------------------------",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.exception.OnErrorContinueHandler",
+                    "threadName": "[MuleRuntime].uber.02: [workday-to-wdh-user-sync-dev].workday-to-wdh-bcp-group-user-sync.CPU_LITE @3c7a2943",
+                    "timestamp": 1720469416798,
+                    "message": "\n********************************************************************************\nMessage               : Path '/wdh/bcp_group_users/input/workday_bcp_group_users.csv' doesn't exist\nElement               : workday-to-wdh-bcp-group-user-sync/processors/3/processors/0 @ workday-to-wdh-user-sync-dev:workday-to-wdh-bcp-group-user-sync .xml:23 (Read BCP Group User File)\nElement DSL           : <sftp:read doc:name=\"Read BCP Group User File\" doc:id=\"c915c1ef-9dda-4e59-bc90-cc808a5fd5de\" config-ref=\"S3_bucket_SFTP_Config\" path=\"${bcp.group.user.file.pickup.path}\"></sftp:read>\nError type            : SFTP:ILLEGAL_PATH\nFlowStack             : at workday-to-wdh-bcp-group-user-sync(workday-to-wdh-bcp-group-user-sync/processors/3/processors/0 @ workday-to-wdh-user-sync-dev:workday-to-wdh-bcp-group-user-sync .xml:23 (Read BCP Group User File))\nPayload               : null\nPayload Type          : null\n--------------------------------------------------------------------------------\nRoot Exception stack trace:\nPath '/wdh/bcp_group_users/input/workday_bcp_group_users.csv' doesn't exist\n\tat org.mule.extension.file.common.api.command.AbstractFileCommand.pathNotFoundException(AbstractFileCommand.java:176)\n\tat org.mule.extension.sftp.internal.command.SftpCommand.getFile(SftpCommand.java:104)\n\tat org.mule.extension.sftp.internal.command.SftpCommand.getExistingFile(SftpCommand.java:72)\n\tat org.mule.extension.sftp.internal.command.SftpReadCommand.read(SftpReadCommand.java:56)\n\tat org.mule.extension.file.common.api.AbstractFileSystem.read(AbstractFileSystem.java:145)\n\tat org.mule.extension.file.common.api.BaseFileSystemOperations.doRead(BaseFileSystemOperations.java:253)\n\tat org.mule.extension.sftp.internal.SftpOperations.read(SftpOperations.java:139)\n\tat org.mule.extension.sftp.internal.SftpOperations$read$MethodComponentExecutor_workday_to_wdh_user_sync_dev.execute(Unknown Source)\n\tat org.mule.runtime.module.extension.internal.runtime.execution.GeneratedMethodComponentExecutor.execute(GeneratedMethodComponentExecutor.java:94)\n\tat org.mule.runtime.module.extension.internal.runtime.execution.CompletableMethodOperationExecutor.doExecute(CompletableMethodOperationExecutor.java:26)\n\tat org.mule.runtime.module.extension.internal.runtime.execution.AbstractCompletableMethodOperationExecutor.execute(AbstractCompletableMethodOperationExecutor.java:61)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.executeCommand(DefaultExecutionMediator.java:237)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.lambda$executeWithInterceptors$6(DefaultExecutionMediator.java:219)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.lambda$executeWithRetry$2(DefaultExecutionMediator.java:197)\n\tat net.jodah.failsafe.Functions.lambda$promiseOfStage$8(Functions.java:193)\n\tat net.jodah.failsafe.internal.executor.RetryPolicyExecutor$1.call(RetryPolicyExecutor.java:101)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat org.mule.service.scheduler.internal.AbstractRunnableFutureDecorator.doRun(AbstractRunnableFutureDecorator.java:151)\n\tat org.mule.service.scheduler.internal.RunnableFutureDecorator.run(RunnableFutureDecorator.java:54)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n\n********************************************************************************\n",
+                    "priority": "ERROR",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.processor.LoggerMessageProcessor",
+                    "threadName": "[MuleRuntime].uber.02: [workday-to-wdh-user-sync-dev].workday-to-wdh-bcp-group-user-sync.CPU_LITE @3c7a2943",
+                    "timestamp": 1720469416799,
+                    "message": "event:139587e0-3d66-11ef-9e95-069e6a2ec265 ========================= Issues in Read File Connector Started ============================",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "Execution Error Message",
+                    "threadName": "[MuleRuntime].uber.02: [workday-to-wdh-user-sync-dev].workday-to-wdh-bcp-group-user-sync.CPU_LITE @3c7a2943",
+                    "timestamp": 1720469416895,
+                    "message": "event:139587e0-3d66-11ef-9e95-069e6a2ec265 Error Message ::: Path '/wdh/bcp_group_users/input/workday_bcp_group_users.csv' doesn't exist",
+                    "priority": "ERROR",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.processor.LoggerMessageProcessor",
+                    "threadName": "[MuleRuntime].uber.02: [workday-to-wdh-user-sync-dev].workday-to-wdh-bcp-group-user-sync.CPU_LITE @3c7a2943",
+                    "timestamp": 1720469416939,
+                    "message": "event:139587e0-3d66-11ef-9e95-069e6a2ec265 =========  Email Error notification flow started at 2024-07-08T20:10:16.911Z[UTC]===============",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.processor.LoggerMessageProcessor",
+                    "threadName": "[MuleRuntime].uber.02: [workday-to-wdh-user-sync-dev].workday-to-wdh-bcp-group-user-sync.BLOCKING @7e58f3c0",
+                    "timestamp": 1720469417904,
+                    "message": "event:139587e0-3d66-11ef-9e95-069e6a2ec265 =========  Email notification flow Ended at 2024-07-08T20:10:17.903Z[UTC] ===============",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.processor.LoggerMessageProcessor",
+                    "threadName": "[MuleRuntime].uber.02: [workday-to-wdh-user-sync-dev].workday-to-wdh-bcp-group-user-sync.BLOCKING @7e58f3c0",
+                    "timestamp": 1720469417905,
+                    "message": "event:139587e0-3d66-11ef-9e95-069e6a2ec265 ========================= Issues in Read File Connector Ended ============================",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.db.commons.shaded.internal.domain.executor.AbstractExecutor",
+                    "threadName": "[MuleRuntime].uber.02: [workday-to-wdh-user-sync-dev].workday-to-wdh-bcp-group-user-sync.BLOCKING @7e58f3c0",
+                    "timestamp": 1720469418274,
+                    "message": "event:139587e0-3d66-11ef-9e95-069e6a2ec265 BULK UPDATE EXCEPTION: 0 SUCCESSFUL OPERATIONS, 1 FAILED OPERATIONS.",
+                    "priority": "ERROR",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.exception.OnErrorPropagateHandler",
+                    "threadName": "[MuleRuntime].uber.02: [workday-to-wdh-user-sync-dev].workday-to-wdh-bcp-group-user-sync.BLOCKING @7e58f3c0",
+                    "timestamp": 1720469418281,
+                    "message": "event:139587e0-3d66-11ef-9e95-069e6a2ec265 \n********************************************************************************\nMessage               : java.sql.BatchUpdateException: Batch entry 0 INSERT INTO wdh.wdh_bcp_group_users(employee_id,bcp_worker_name,worker_email,manager_name,worker_status,hire_date,termination_date) VALUES((NULL),(NULL),(NULL),(NULL),(NULL),(NULL),(NULL)) on conflict (employee_id) DO update set\nemployee_id=excluded.employee_id,bcp_worker_name=excluded.bcp_worker_name,worker_email=excluded.worker_email,manager_name=excluded.manager_name,worker_status=excluded.worker_status,hire_date=excluded.hire_date,termination_date=excluded.termination_date was aborted: ERROR: null value in column \"employee_id\" of relation \"wdh_bcp_group_users\" violates not-null constraint\n  Detail: Failing row contains (1126, null, null, null, null, null, null, null, 2024-07-08 20:10:18.254853, wdh_support_dev, 2024-07-08 20:10:18.254853, wdh_support_dev).  Call getNextException to see other errors in the batch.\nElement               : wdh-bcp-group-user-updation-sub/processors/0/processors/1 @ workday-to-wdh-user-sync-dev:subflows/wdh-bcp-group-user-updation-sub.xml:29 (Bulk Inserting Records to WDH)\nElement DSL           : <db:bulk-insert doc:name=\"Bulk Inserting Records to WDH\" doc:id=\"97735d3d-4451-437e-90fd-f07e4e77b959\" config-ref=\"WDH_Database_Config\" target=\"bulkInsertResponse\">\n<db:sql><![CDATA[\n${file::sql/bulk-insert-data-to-wdh.sql}\n]]></db:sql>\n</db:bulk-insert>\nError type            : DB:QUERY_EXECUTION\nFlowStack             : at wdh-bcp-group-user-updation-sub(wdh-bcp-group-user-updation-sub/processors/0/processors/1 @ workday-to-wdh-user-sync-dev:subflows/wdh-bcp-group-user-updation-sub.xml:29 (Bulk Inserting Records to WDH))\nat workday-to-wdh-bcp-group-user-sync(workday-to-wdh-bcp-group-user-sync/processors/4/route/0/processors/0 @ workday-to-wdh-user-sync-dev:workday-to-wdh-bcp-group-user-sync .xml:35 (BCP Group User Updation Sub Flow))\nPayload Type          : java.util.ArrayList\n--------------------------------------------------------------------------------\nRoot Exception stack trace:\norg.postgresql.util.PSQLException: ERROR: null value in column \"employee_id\" of relation \"wdh_bcp_group_users\" violates not-null constraint\n  Detail: Failing row contains (1126, null, null, null, null, null, null, null, 2024-07-08 20:10:18.254853, wdh_support_dev, 2024-07-08 20:10:18.254853, wdh_support_dev).\n\tat org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)\n\tat org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)\n\tat org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:579)\n\tat org.postgresql.jdbc.PgStatement.internalExecuteBatch(PgStatement.java:912)\n\tat org.postgresql.jdbc.PgStatement.executeBatch(PgStatement.java:936)\n\tat org.postgresql.jdbc.PgPreparedStatement.executeBatch(PgPreparedStatement.java:1733)\n\tat com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeBatch(NewProxyPreparedStatement.java:2544)\n\tat org.mule.db.commons.shaded.internal.domain.executor.BulkUpdateExecutor.execute(BulkUpdateExecutor.java:79)\n\tat org.mule.db.commons.shaded.internal.operation.BulkOperations.singleQueryBulk(BulkOperations.java:204)\n\tat org.mule.db.commons.shaded.internal.operation.BulkOperations.bulkInsert(BulkOperations.java:107)\n\tat org.mule.extension.db.internal.operation.DbBulkOperations.bulkInsert(DbBulkOperations.java:75)\n\tat org.mule.extension.db.internal.operation.DbBulkOperations$bulkInsert$MethodComponentExecutor_workday_to_wdh_user_sync_dev.execute(Unknown Source)\n\tat org.mule.runtime.module.extension.internal.runtime.execution.GeneratedMethodComponentExecutor.execute(GeneratedMethodComponentExecutor.java:94)\n\tat org.mule.runtime.module.extension.internal.runtime.execution.CompletableMethodOperationExecutor.doExecute(CompletableMethodOperationExecutor.java:26)\n\tat org.mule.runtime.module.extension.internal.runtime.execution.AbstractCompletableMethodOperationExecutor.execute(AbstractCompletableMethodOperationExecutor.java:61)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.executeCommand(DefaultExecutionMediator.java:237)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.lambda$executeWithInterceptors$6(DefaultExecutionMediator.java:219)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.lambda$executeWithRetry$2(DefaultExecutionMediator.java:197)\n\tat net.jodah.failsafe.Functions.lambda$promiseOfStage$8(Functions.java:193)\n\tat net.jodah.failsafe.internal.executor.RetryPolicyExecutor$1.call(RetryPolicyExecutor.java:101)\n\tat net.jodah.failsafe.internal.executor.RetryPolicyExecutor.lambda$supplyAsync$1(RetryPolicyExecutor.java:133)\n\tat net.jodah.failsafe.Functions.lambda$null$1(Functions.java:69)\n\tat org.mule.runtime.core.internal.util.rx.ConditionalExecutorServiceDecorator.synchronousSchedule(ConditionalExecutorServiceDecorator.java:181)\n\tat org.mule.runtime.core.internal.util.rx.ConditionalExecutorServiceDecorator.schedule(ConditionalExecutorServiceDecorator.java:167)\n\tat net.jodah.failsafe.Functions.lambda$makeAsync$2(Functions.java:79)\n\tat net.jodah.failsafe.AsyncExecution.executeAsync(AsyncExecution.java:174)\n\tat net.jodah.failsafe.FailsafeExecutor.callAsync(FailsafeExecutor.java:346)\n\tat net.jodah.failsafe.FailsafeExecutor.getStageAsync(FailsafeExecutor.java:178)\n\tat org.mule.runtime.core.internal.retry.policies.SimpleRetryPolicy.applyPolicy(SimpleRetryPolicy.java:90)\n\tat org.mule.runtime.core.api.retry.policy.RetryPolicyTemplate.applyPolicy(RetryPolicyTemplate.java:143)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.executeWithRetry(DefaultExecutionMediator.java:195)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.executeWithInterceptors(DefaultExecutionMediator.java:219)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.lambda$execute$1(DefaultExecutionMediator.java:130)\n\tat org.mule.runtime.core.internal.execution.ExecuteCallbackInterceptor.execute(ExecuteCallbackInterceptor.java:15)\n\tat org.mule.runtime.core.internal.execution.BeginAndResolveTransactionInterceptor.execute(BeginAndResolveTransactionInterceptor.java:83)\n\tat org.mule.runtime.core.internal.execution.SuspendXaTransactionInterceptor.execute(SuspendXaTransactionInterceptor.java:46)\n\tat org.mule.runtime.core.internal.execution.ValidateTransactionalStateInterceptor.execute(ValidateTransactionalStateInterceptor.java:43)\n\tat org.mule.runtime.core.internal.execution.IsolateCurrentTransactionInterceptor.execute(IsolateCurrentTransactionInterceptor.java:37)\n\tat org.mule.runtime.core.api.execution.TransactionalExecutionTemplate.execute(TransactionalExecutionTemplate.java:158)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.withExecutionTemplate(DefaultExecutionMediator.java:313)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.execute(DefaultExecutionMediator.java:129)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.ComponentMessageProcessor.executeOperation(ComponentMessageProcessor.java:583)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.ComponentMessageProcessor.prepareAndExecuteOperation(ComponentMessageProcessor.java:822)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.ComponentMessageProcessor.access$100(ComponentMessageProcessor.java:204)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.ComponentMessageProcessor$4.lambda$innerEventDispatcher$6(ComponentMessageProcessor.java:681)\n\tat reactor.core.publisher.FluxPeekFuseable$PeekConditionalSubscriber.onNext(FluxPeekFuseable.java:832)\n\tat reactor.core.publisher.FluxPeekFuseable$PeekConditionalSubscriber.onNext(FluxPeekFuseable.java:846)\n\tat reactor.core.publisher.FluxSubscribeOnValue$ScheduledScalar.run(FluxSubscribeOnValue.java:178)\n\tat reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:50)\n\tat reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:27)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat org.mule.service.scheduler.internal.AbstractRunnableFutureDecorator.doRun(AbstractRunnableFutureDecorator.java:151)\n\tat org.mule.service.scheduler.internal.RunnableFutureDecorator.run(RunnableFutureDecorator.java:54)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n\n********************************************************************************\n",
+                    "priority": "ERROR",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.processor.LoggerMessageProcessor",
+                    "threadName": "[MuleRuntime].uber.02: [workday-to-wdh-user-sync-dev].workday-to-wdh-bcp-group-user-sync.BLOCKING @7e58f3c0",
+                    "timestamp": 1720469418304,
+                    "message": "event:139587e0-3d66-11ef-9e95-069e6a2ec265 {Error Occurred={error_type=DB:QUERY_EXECUTION, error_description=java.sql.BatchUpdateException: Batch entry 0 INSERT INTO wdh.wdh_bcp_group_users(employee_id,bcp_worker_name,worker_email,manager_name,worker_status,hire_date,termination_date) VALUES((NULL),(NULL),(NULL),(NULL),(NULL),(NULL),(NULL)) on conflict (employee_id) DO update set\nemployee_id=excluded.employee_id,bcp_worker_name=excluded.bcp_worker_name,worker_email=excluded.worker_email,manager_name=excluded.manager_name,worker_status=excluded.worker_status,hire_date=excluded.hire_date,termination_date=excluded.termination_date was aborted: ERROR: null value in column \"employee_id\" of relation \"wdh_bcp_group_users\" violates not-null constraint\n  Detail: Failing row contains (1126, null, null, null, null, null, null, null, 2024-07-08 20:10:18.254853, wdh_support_dev, 2024-07-08 20:10:18.254853, wdh_support_dev).  Call getNextException to see other errors in the batch.}}",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.exception.OnErrorPropagateHandler",
+                    "threadName": "[MuleRuntime].uber.01: [workday-to-wdh-user-sync-dev].workday-to-wdh-bcp-group-user-sync.BLOCKING @7e58f3c0",
+                    "timestamp": 1720469418388,
+                    "message": "event:139587e0-3d66-11ef-9e95-069e6a2ec265 Exception during exception strategy execution",
+                    "priority": "ERROR",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.exception.OnErrorPropagateHandler",
+                    "threadName": "[MuleRuntime].uber.01: [workday-to-wdh-user-sync-dev].workday-to-wdh-bcp-group-user-sync.BLOCKING @7e58f3c0",
+                    "timestamp": 1720469418389,
+                    "message": "event:139587e0-3d66-11ef-9e95-069e6a2ec265 \n********************************************************************************\nMessage               : Path '/wdh/bcp_group_users/input/workday_bcp_group_users.csv' doesn't exist\nElement               : wdh-bcp-group-user-updation-sub/processors/0/errorHandler/0/processors/1 @ workday-to-wdh-user-sync-dev:subflows/wdh-bcp-group-user-updation-sub.xml:69 (Move File to Error Folder)\nElement DSL           : <sftp:move doc:name=\"Move File to Error Folder\" doc:id=\"cbc5c42f-c031-4901-9d28-94a5c45fd924\" config-ref=\"S3_bucket_SFTP_Config\" sourcePath=\"${bcp.group.user.file.pickup.path}\" targetPath=\"#[p('bcp.group.user.file.error.path') ++ \"/\" ++ (now() as Date {format:'yyyy_MM_dd'})]\"></sftp:move>\nError type            : SFTP:ILLEGAL_PATH\nFlowStack             : at wdh-bcp-group-user-updation-sub(wdh-bcp-group-user-updation-sub/processors/0/errorHandler/0/processors/1 @ workday-to-wdh-user-sync-dev:subflows/wdh-bcp-group-user-updation-sub.xml:69 (Move File to Error Folder))\nat workday-to-wdh-bcp-group-user-sync(workday-to-wdh-bcp-group-user-sync/processors/4/route/0/processors/0 @ workday-to-wdh-user-sync-dev:workday-to-wdh-bcp-group-user-sync .xml:35 (BCP Group User Updation Sub Flow))\nPayload Type          : java.util.ArrayList\n--------------------------------------------------------------------------------\nRoot Exception stack trace:\nPath '/wdh/bcp_group_users/input/workday_bcp_group_users.csv' doesn't exist\n\tat org.mule.extension.file.common.api.command.AbstractFileCommand.pathNotFoundException(AbstractFileCommand.java:176)\n\tat org.mule.extension.sftp.internal.command.SftpCommand.getFile(SftpCommand.java:104)\n\tat org.mule.extension.sftp.internal.command.SftpCommand.getExistingFile(SftpCommand.java:72)\n\tat org.mule.extension.sftp.internal.command.SftpCommand.copy(SftpCommand.java:224)\n\tat org.mule.extension.sftp.internal.command.SftpMoveCommand.move(SftpMoveCommand.java:39)\n\tat org.mule.extension.file.common.api.AbstractFileSystem.move(AbstractFileSystem.java:183)\n\tat org.mule.extension.file.common.api.BaseFileSystemOperations.doMove(BaseFileSystemOperations.java:387)\n\tat org.mule.extension.sftp.internal.SftpOperations.move(SftpOperations.java:245)\n\tat org.mule.extension.sftp.internal.SftpOperations$move$MethodComponentExecutor_workday_to_wdh_user_sync_dev.execute(Unknown Source)\n\tat org.mule.runtime.module.extension.internal.runtime.execution.GeneratedMethodComponentExecutor.execute(GeneratedMethodComponentExecutor.java:94)\n\tat org.mule.runtime.module.extension.internal.runtime.execution.CompletableMethodOperationExecutor.doExecute(CompletableMethodOperationExecutor.java:26)\n\tat org.mule.runtime.module.extension.internal.runtime.execution.AbstractCompletableMethodOperationExecutor.execute(AbstractCompletableMethodOperationExecutor.java:61)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.executeCommand(DefaultExecutionMediator.java:237)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.lambda$executeWithInterceptors$6(DefaultExecutionMediator.java:219)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.lambda$executeWithRetry$2(DefaultExecutionMediator.java:197)\n\tat net.jodah.failsafe.Functions.lambda$promiseOfStage$8(Functions.java:193)\n\tat net.jodah.failsafe.internal.executor.RetryPolicyExecutor$1.call(RetryPolicyExecutor.java:101)\n\tat net.jodah.failsafe.internal.executor.RetryPolicyExecutor.lambda$supplyAsync$1(RetryPolicyExecutor.java:133)\n\tat net.jodah.failsafe.Functions.lambda$null$1(Functions.java:69)\n\tat org.mule.runtime.core.internal.util.rx.ConditionalExecutorServiceDecorator.synchronousSchedule(ConditionalExecutorServiceDecorator.java:181)\n\tat org.mule.runtime.core.internal.util.rx.ConditionalExecutorServiceDecorator.schedule(ConditionalExecutorServiceDecorator.java:167)\n\tat net.jodah.failsafe.Functions.lambda$makeAsync$2(Functions.java:79)\n\tat net.jodah.failsafe.AsyncExecution.executeAsync(AsyncExecution.java:174)\n\tat net.jodah.failsafe.FailsafeExecutor.callAsync(FailsafeExecutor.java:346)\n\tat net.jodah.failsafe.FailsafeExecutor.getStageAsync(FailsafeExecutor.java:178)\n\tat org.mule.runtime.core.internal.retry.policies.SimpleRetryPolicy.applyPolicy(SimpleRetryPolicy.java:90)\n\tat org.mule.runtime.core.api.retry.policy.RetryPolicyTemplate.applyPolicy(RetryPolicyTemplate.java:143)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.executeWithRetry(DefaultExecutionMediator.java:195)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.executeWithInterceptors(DefaultExecutionMediator.java:219)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.lambda$execute$1(DefaultExecutionMediator.java:130)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.lambda$new$0(DefaultExecutionMediator.java:73)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.withExecutionTemplate(DefaultExecutionMediator.java:316)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.execute(DefaultExecutionMediator.java:129)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.ComponentMessageProcessor.executeOperation(ComponentMessageProcessor.java:583)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.ComponentMessageProcessor.prepareAndExecuteOperation(ComponentMessageProcessor.java:822)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.ComponentMessageProcessor.access$100(ComponentMessageProcessor.java:204)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.ComponentMessageProcessor$4.lambda$innerEventDispatcher$6(ComponentMessageProcessor.java:681)\n\tat reactor.core.publisher.FluxPeekFuseable$PeekConditionalSubscriber.onNext(FluxPeekFuseable.java:832)\n\tat reactor.core.publisher.FluxPeekFuseable$PeekConditionalSubscriber.onNext(FluxPeekFuseable.java:846)\n\tat reactor.core.publisher.FluxSubscribeOnValue$ScheduledScalar.run(FluxSubscribeOnValue.java:178)\n\tat reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:50)\n\tat reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:27)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat org.mule.service.scheduler.internal.AbstractRunnableFutureDecorator.doRun(AbstractRunnableFutureDecorator.java:151)\n\tat org.mule.service.scheduler.internal.RunnableFutureDecorator.run(RunnableFutureDecorator.java:54)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n\n********************************************************************************\n",
+                    "priority": "ERROR",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.exception.OnErrorPropagateHandler",
+                    "threadName": "[MuleRuntime].uber.01: [workday-to-wdh-user-sync-dev].workday-to-wdh-bcp-group-user-sync.BLOCKING @7e58f3c0",
+                    "timestamp": 1720469418390,
+                    "message": "event:139587e0-3d66-11ef-9e95-069e6a2ec265 org.mule.runtime.api.functional.Either cannot be cast to org.mule.runtime.core.api.event.CoreEvent",
+                    "priority": "WARN",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.processor.LoggerMessageProcessor",
+                    "threadName": "[MuleRuntime].uber.01: [workday-to-wdh-user-sync-dev].workday-to-wdh-bcp-group-user-sync.BLOCKING @7e58f3c0",
+                    "timestamp": 1720469418393,
+                    "message": "event:139587e0-3d66-11ef-9e95-069e6a2ec265 ============= Other Issues than Validation Started=============",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "Execution Error Message",
+                    "threadName": "[MuleRuntime].uber.01: [workday-to-wdh-user-sync-dev].workday-to-wdh-bcp-group-user-sync.BLOCKING @7e58f3c0",
+                    "timestamp": 1720469418407,
+                    "message": "event:139587e0-3d66-11ef-9e95-069e6a2ec265 error-logger-sub is started",
+                    "priority": "ERROR",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.processor.LoggerMessageProcessor",
+                    "threadName": "[MuleRuntime].uber.02: [workday-to-wdh-user-sync-dev].logger-sub.CPU_LITE @609ea4c5",
+                    "timestamp": 1720469418477,
+                    "message": "event:139587e0-3d66-11ef-9e95-069e6a2ec265 \"IMF Flow Init - \\\"Path '/wdh/bcp_group_users/input/workday_bcp_group_users.csv' doesn't exist\\\" as String {class: \\\"java.lang.String\\\"}\"",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.processor.LoggerMessageProcessor",
+                    "threadName": "[MuleRuntime].uber.02: [workday-to-wdh-user-sync-dev].logger-sub.CPU_LITE @609ea4c5",
+                    "timestamp": 1720469419188,
+                    "message": "event:139587e0-3d66-11ef-9e95-069e6a2ec265 \"Http Status:200,Data published succesfully\"",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "Execution Error Message",
+                    "threadName": "[MuleRuntime].uber.02: [workday-to-wdh-user-sync-dev].logger-sub.CPU_LITE @609ea4c5",
+                    "timestamp": 1720469419197,
+                    "message": "event:139587e0-3d66-11ef-9e95-069e6a2ec265 error-logger-sub is ended",
+                    "priority": "ERROR",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.processor.LoggerMessageProcessor",
+                    "threadName": "[MuleRuntime].uber.02: [workday-to-wdh-user-sync-dev].logger-sub.CPU_LITE @609ea4c5",
+                    "timestamp": 1720469419197,
+                    "message": "event:139587e0-3d66-11ef-9e95-069e6a2ec265 ============= Other Issues than Validation Ended=============",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.exception.DefaultSystemExceptionStrategy",
+                    "threadName": "[MuleRuntime].uber.02: [workday-to-wdh-user-sync-dev].logger-sub.CPU_LITE @609ea4c5",
+                    "timestamp": 1720469419243,
+                    "message": "event:139587e0-3d66-11ef-9e95-069e6a2ec265 \n********************************************************************************\nMessage               : Path '/wdh/bcp_group_users/input/workday_bcp_group_users.csv' doesn't exist\nElement               : wdh-bcp-group-user-updation-sub/processors/0/errorHandler/0/processors/1 @ workday-to-wdh-user-sync-dev:subflows/wdh-bcp-group-user-updation-sub.xml:69 (Move File to Error Folder)\nElement DSL           : <sftp:move doc:name=\"Move File to Error Folder\" doc:id=\"cbc5c42f-c031-4901-9d28-94a5c45fd924\" config-ref=\"S3_bucket_SFTP_Config\" sourcePath=\"${bcp.group.user.file.pickup.path}\" targetPath=\"#[p('bcp.group.user.file.error.path') ++ \"/\" ++ (now() as Date {format:'yyyy_MM_dd'})]\"></sftp:move>\nError type            : SFTP:ILLEGAL_PATH\nFlowStack             : at wdh-bcp-group-user-updation-sub(wdh-bcp-group-user-updation-sub/processors/0/errorHandler/0/processors/1 @ workday-to-wdh-user-sync-dev:subflows/wdh-bcp-group-user-updation-sub.xml:69 (Move File to Error Folder))\nat workday-to-wdh-bcp-group-user-sync(workday-to-wdh-bcp-group-user-sync/processors/4/route/0/processors/0 @ workday-to-wdh-user-sync-dev:workday-to-wdh-bcp-group-user-sync .xml:35 (BCP Group User Updation Sub Flow))\nPayload Type          : java.util.ArrayList\n--------------------------------------------------------------------------------\nRoot Exception stack trace:\nPath '/wdh/bcp_group_users/input/workday_bcp_group_users.csv' doesn't exist\n\tat org.mule.extension.file.common.api.command.AbstractFileCommand.pathNotFoundException(AbstractFileCommand.java:176)\n\tat org.mule.extension.sftp.internal.command.SftpCommand.getFile(SftpCommand.java:104)\n\tat org.mule.extension.sftp.internal.command.SftpCommand.getExistingFile(SftpCommand.java:72)\n\tat org.mule.extension.sftp.internal.command.SftpCommand.copy(SftpCommand.java:224)\n\tat org.mule.extension.sftp.internal.command.SftpMoveCommand.move(SftpMoveCommand.java:39)\n\tat org.mule.extension.file.common.api.AbstractFileSystem.move(AbstractFileSystem.java:183)\n\tat org.mule.extension.file.common.api.BaseFileSystemOperations.doMove(BaseFileSystemOperations.java:387)\n\tat org.mule.extension.sftp.internal.SftpOperations.move(SftpOperations.java:245)\n\tat org.mule.extension.sftp.internal.SftpOperations$move$MethodComponentExecutor_workday_to_wdh_user_sync_dev.execute(Unknown Source)\n\tat org.mule.runtime.module.extension.internal.runtime.execution.GeneratedMethodComponentExecutor.execute(GeneratedMethodComponentExecutor.java:94)\n\tat org.mule.runtime.module.extension.internal.runtime.execution.CompletableMethodOperationExecutor.doExecute(CompletableMethodOperationExecutor.java:26)\n\tat org.mule.runtime.module.extension.internal.runtime.execution.AbstractCompletableMethodOperationExecutor.execute(AbstractCompletableMethodOperationExecutor.java:61)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.executeCommand(DefaultExecutionMediator.java:237)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.lambda$executeWithInterceptors$6(DefaultExecutionMediator.java:219)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.lambda$executeWithRetry$2(DefaultExecutionMediator.java:197)\n\tat net.jodah.failsafe.Functions.lambda$promiseOfStage$8(Functions.java:193)\n\tat net.jodah.failsafe.internal.executor.RetryPolicyExecutor$1.call(RetryPolicyExecutor.java:101)\n\tat net.jodah.failsafe.internal.executor.RetryPolicyExecutor.lambda$supplyAsync$1(RetryPolicyExecutor.java:133)\n\tat net.jodah.failsafe.Functions.lambda$null$1(Functions.java:69)\n\tat org.mule.runtime.core.internal.util.rx.ConditionalExecutorServiceDecorator.synchronousSchedule(ConditionalExecutorServiceDecorator.java:181)\n\tat org.mule.runtime.core.internal.util.rx.ConditionalExecutorServiceDecorator.schedule(ConditionalExecutorServiceDecorator.java:167)\n\tat net.jodah.failsafe.Functions.lambda$makeAsync$2(Functions.java:79)\n\tat net.jodah.failsafe.AsyncExecution.executeAsync(AsyncExecution.java:174)\n\tat net.jodah.failsafe.FailsafeExecutor.callAsync(FailsafeExecutor.java:346)\n\tat net.jodah.failsafe.FailsafeExecutor.getStageAsync(FailsafeExecutor.java:178)\n\tat org.mule.runtime.core.internal.retry.policies.SimpleRetryPolicy.applyPolicy(SimpleRetryPolicy.java:90)\n\tat org.mule.runtime.core.api.retry.policy.RetryPolicyTemplate.applyPolicy(RetryPolicyTemplate.java:143)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.executeWithRetry(DefaultExecutionMediator.java:195)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.executeWithInterceptors(DefaultExecutionMediator.java:219)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.lambda$execute$1(DefaultExecutionMediator.java:130)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.lambda$new$0(DefaultExecutionMediator.java:73)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.withExecutionTemplate(DefaultExecutionMediator.java:316)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.execute(DefaultExecutionMediator.java:129)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.ComponentMessageProcessor.executeOperation(ComponentMessageProcessor.java:583)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.ComponentMessageProcessor.prepareAndExecuteOperation(ComponentMessageProcessor.java:822)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.ComponentMessageProcessor.access$100(ComponentMessageProcessor.java:204)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.ComponentMessageProcessor$4.lambda$innerEventDispatcher$6(ComponentMessageProcessor.java:681)\n\tat reactor.core.publisher.FluxPeekFuseable$PeekConditionalSubscriber.onNext(FluxPeekFuseable.java:832)\n\tat reactor.core.publisher.FluxPeekFuseable$PeekConditionalSubscriber.onNext(FluxPeekFuseable.java:846)\n\tat reactor.core.publisher.FluxSubscribeOnValue$ScheduledScalar.run(FluxSubscribeOnValue.java:178)\n\tat reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:50)\n\tat reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:27)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat org.mule.service.scheduler.internal.AbstractRunnableFutureDecorator.doRun(AbstractRunnableFutureDecorator.java:151)\n\tat org.mule.service.scheduler.internal.RunnableFutureDecorator.run(RunnableFutureDecorator.java:54)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n\n********************************************************************************\n",
+                    "priority": "ERROR",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.processor.LoggerMessageProcessor",
+                    "threadName": "[MuleRuntime].uber.01: [workday-to-wdh-user-sync-dev].workday-to-wdh-bcp-group-user-sync.CPU_LITE @3c7a2943",
+                    "timestamp": 1720501807059,
+                    "message": "event:81f445f0-3db1-11ef-9e95-069e6a2ec265 ---------Workday To WDH BCP Flow Started at 2024-07-09T05:10:07.058Z,ExecutionId:a201be86-642a-4f56-a36b-ddc7f7484d13--------------------------",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.exception.OnErrorContinueHandler",
+                    "threadName": "[MuleRuntime].uber.02: [workday-to-wdh-user-sync-dev].workday-to-wdh-bcp-group-user-sync.CPU_LITE @3c7a2943",
+                    "timestamp": 1720501813526,
+                    "message": "\n********************************************************************************\nMessage               : Path '/wdh/bcp_group_users/input/workday_bcp_group_users.csv' doesn't exist\nElement               : workday-to-wdh-bcp-group-user-sync/processors/3/processors/0 @ workday-to-wdh-user-sync-dev:workday-to-wdh-bcp-group-user-sync .xml:23 (Read BCP Group User File)\nElement DSL           : <sftp:read doc:name=\"Read BCP Group User File\" doc:id=\"c915c1ef-9dda-4e59-bc90-cc808a5fd5de\" config-ref=\"S3_bucket_SFTP_Config\" path=\"${bcp.group.user.file.pickup.path}\"></sftp:read>\nError type            : SFTP:ILLEGAL_PATH\nFlowStack             : at workday-to-wdh-bcp-group-user-sync(workday-to-wdh-bcp-group-user-sync/processors/3/processors/0 @ workday-to-wdh-user-sync-dev:workday-to-wdh-bcp-group-user-sync .xml:23 (Read BCP Group User File))\nPayload               : null\nPayload Type          : null\n--------------------------------------------------------------------------------\nRoot Exception stack trace:\nPath '/wdh/bcp_group_users/input/workday_bcp_group_users.csv' doesn't exist\n\tat org.mule.extension.file.common.api.command.AbstractFileCommand.pathNotFoundException(AbstractFileCommand.java:176)\n\tat org.mule.extension.sftp.internal.command.SftpCommand.getFile(SftpCommand.java:104)\n\tat org.mule.extension.sftp.internal.command.SftpCommand.getExistingFile(SftpCommand.java:72)\n\tat org.mule.extension.sftp.internal.command.SftpReadCommand.read(SftpReadCommand.java:56)\n\tat org.mule.extension.file.common.api.AbstractFileSystem.read(AbstractFileSystem.java:145)\n\tat org.mule.extension.file.common.api.BaseFileSystemOperations.doRead(BaseFileSystemOperations.java:253)\n\tat org.mule.extension.sftp.internal.SftpOperations.read(SftpOperations.java:139)\n\tat org.mule.extension.sftp.internal.SftpOperations$read$MethodComponentExecutor_workday_to_wdh_user_sync_dev.execute(Unknown Source)\n\tat org.mule.runtime.module.extension.internal.runtime.execution.GeneratedMethodComponentExecutor.execute(GeneratedMethodComponentExecutor.java:94)\n\tat org.mule.runtime.module.extension.internal.runtime.execution.CompletableMethodOperationExecutor.doExecute(CompletableMethodOperationExecutor.java:26)\n\tat org.mule.runtime.module.extension.internal.runtime.execution.AbstractCompletableMethodOperationExecutor.execute(AbstractCompletableMethodOperationExecutor.java:61)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.executeCommand(DefaultExecutionMediator.java:237)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.lambda$executeWithInterceptors$6(DefaultExecutionMediator.java:219)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.lambda$executeWithRetry$2(DefaultExecutionMediator.java:197)\n\tat net.jodah.failsafe.Functions.lambda$promiseOfStage$8(Functions.java:193)\n\tat net.jodah.failsafe.internal.executor.RetryPolicyExecutor$1.call(RetryPolicyExecutor.java:101)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat org.mule.service.scheduler.internal.AbstractRunnableFutureDecorator.doRun(AbstractRunnableFutureDecorator.java:151)\n\tat org.mule.service.scheduler.internal.RunnableFutureDecorator.run(RunnableFutureDecorator.java:54)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n\n********************************************************************************\n",
+                    "priority": "ERROR",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.processor.LoggerMessageProcessor",
+                    "threadName": "[MuleRuntime].uber.02: [workday-to-wdh-user-sync-dev].workday-to-wdh-bcp-group-user-sync.CPU_LITE @3c7a2943",
+                    "timestamp": 1720501813528,
+                    "message": "event:81f445f0-3db1-11ef-9e95-069e6a2ec265 ========================= Issues in Read File Connector Started ============================",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "Execution Error Message",
+                    "threadName": "[MuleRuntime].uber.02: [workday-to-wdh-user-sync-dev].workday-to-wdh-bcp-group-user-sync.CPU_LITE @3c7a2943",
+                    "timestamp": 1720501813539,
+                    "message": "event:81f445f0-3db1-11ef-9e95-069e6a2ec265 Error Message ::: Path '/wdh/bcp_group_users/input/workday_bcp_group_users.csv' doesn't exist",
+                    "priority": "ERROR",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.processor.LoggerMessageProcessor",
+                    "threadName": "[MuleRuntime].uber.02: [workday-to-wdh-user-sync-dev].workday-to-wdh-bcp-group-user-sync.CPU_LITE @3c7a2943",
+                    "timestamp": 1720501813544,
+                    "message": "event:81f445f0-3db1-11ef-9e95-069e6a2ec265 =========  Email Error notification flow started at 2024-07-09T05:10:13.543Z[UTC]===============",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.processor.LoggerMessageProcessor",
+                    "threadName": "[MuleRuntime].uber.02: [workday-to-wdh-user-sync-dev].workday-to-wdh-bcp-group-user-sync.BLOCKING @7e58f3c0",
+                    "timestamp": 1720501813885,
+                    "message": "event:81f445f0-3db1-11ef-9e95-069e6a2ec265 =========  Email notification flow Ended at 2024-07-09T05:10:13.884Z[UTC] ===============",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.processor.LoggerMessageProcessor",
+                    "threadName": "[MuleRuntime].uber.02: [workday-to-wdh-user-sync-dev].workday-to-wdh-bcp-group-user-sync.BLOCKING @7e58f3c0",
+                    "timestamp": 1720501813886,
+                    "message": "event:81f445f0-3db1-11ef-9e95-069e6a2ec265 ========================= Issues in Read File Connector Ended ============================",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.db.commons.shaded.internal.domain.executor.AbstractExecutor",
+                    "threadName": "[MuleRuntime].uber.02: [workday-to-wdh-user-sync-dev].workday-to-wdh-bcp-group-user-sync.BLOCKING @7e58f3c0",
+                    "timestamp": 1720501813958,
+                    "message": "event:81f445f0-3db1-11ef-9e95-069e6a2ec265 BULK UPDATE EXCEPTION: 0 SUCCESSFUL OPERATIONS, 1 FAILED OPERATIONS.",
+                    "priority": "ERROR",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.exception.OnErrorPropagateHandler",
+                    "threadName": "[MuleRuntime].uber.02: [workday-to-wdh-user-sync-dev].workday-to-wdh-bcp-group-user-sync.BLOCKING @7e58f3c0",
+                    "timestamp": 1720501813960,
+                    "message": "event:81f445f0-3db1-11ef-9e95-069e6a2ec265 \n********************************************************************************\nMessage               : java.sql.BatchUpdateException: Batch entry 0 INSERT INTO wdh.wdh_bcp_group_users(employee_id,bcp_worker_name,worker_email,manager_name,worker_status,hire_date,termination_date) VALUES((NULL),(NULL),(NULL),(NULL),(NULL),(NULL),(NULL)) on conflict (employee_id) DO update set\nemployee_id=excluded.employee_id,bcp_worker_name=excluded.bcp_worker_name,worker_email=excluded.worker_email,manager_name=excluded.manager_name,worker_status=excluded.worker_status,hire_date=excluded.hire_date,termination_date=excluded.termination_date was aborted: ERROR: null value in column \"employee_id\" of relation \"wdh_bcp_group_users\" violates not-null constraint\n  Detail: Failing row contains (1127, null, null, null, null, null, null, null, 2024-07-09 05:10:13.954856, wdh_support_dev, 2024-07-09 05:10:13.954856, wdh_support_dev).  Call getNextException to see other errors in the batch.\nElement               : wdh-bcp-group-user-updation-sub/processors/0/processors/1 @ workday-to-wdh-user-sync-dev:subflows/wdh-bcp-group-user-updation-sub.xml:29 (Bulk Inserting Records to WDH)\nElement DSL           : <db:bulk-insert doc:name=\"Bulk Inserting Records to WDH\" doc:id=\"97735d3d-4451-437e-90fd-f07e4e77b959\" config-ref=\"WDH_Database_Config\" target=\"bulkInsertResponse\">\n<db:sql><![CDATA[\n${file::sql/bulk-insert-data-to-wdh.sql}\n]]></db:sql>\n</db:bulk-insert>\nError type            : DB:QUERY_EXECUTION\nFlowStack             : at wdh-bcp-group-user-updation-sub(wdh-bcp-group-user-updation-sub/processors/0/processors/1 @ workday-to-wdh-user-sync-dev:subflows/wdh-bcp-group-user-updation-sub.xml:29 (Bulk Inserting Records to WDH))\nat workday-to-wdh-bcp-group-user-sync(workday-to-wdh-bcp-group-user-sync/processors/4/route/0/processors/0 @ workday-to-wdh-user-sync-dev:workday-to-wdh-bcp-group-user-sync .xml:35 (BCP Group User Updation Sub Flow))\nPayload Type          : java.util.ArrayList\n--------------------------------------------------------------------------------\nRoot Exception stack trace:\norg.postgresql.util.PSQLException: ERROR: null value in column \"employee_id\" of relation \"wdh_bcp_group_users\" violates not-null constraint\n  Detail: Failing row contains (1127, null, null, null, null, null, null, null, 2024-07-09 05:10:13.954856, wdh_support_dev, 2024-07-09 05:10:13.954856, wdh_support_dev).\n\tat org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)\n\tat org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)\n\tat org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:579)\n\tat org.postgresql.jdbc.PgStatement.internalExecuteBatch(PgStatement.java:912)\n\tat org.postgresql.jdbc.PgStatement.executeBatch(PgStatement.java:936)\n\tat org.postgresql.jdbc.PgPreparedStatement.executeBatch(PgPreparedStatement.java:1733)\n\tat com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeBatch(NewProxyPreparedStatement.java:2544)\n\tat org.mule.db.commons.shaded.internal.domain.executor.BulkUpdateExecutor.execute(BulkUpdateExecutor.java:79)\n\tat org.mule.db.commons.shaded.internal.operation.BulkOperations.singleQueryBulk(BulkOperations.java:204)\n\tat org.mule.db.commons.shaded.internal.operation.BulkOperations.bulkInsert(BulkOperations.java:107)\n\tat org.mule.extension.db.internal.operation.DbBulkOperations.bulkInsert(DbBulkOperations.java:75)\n\tat org.mule.extension.db.internal.operation.DbBulkOperations$bulkInsert$MethodComponentExecutor_workday_to_wdh_user_sync_dev.execute(Unknown Source)\n\tat org.mule.runtime.module.extension.internal.runtime.execution.GeneratedMethodComponentExecutor.execute(GeneratedMethodComponentExecutor.java:94)\n\tat org.mule.runtime.module.extension.internal.runtime.execution.CompletableMethodOperationExecutor.doExecute(CompletableMethodOperationExecutor.java:26)\n\tat org.mule.runtime.module.extension.internal.runtime.execution.AbstractCompletableMethodOperationExecutor.execute(AbstractCompletableMethodOperationExecutor.java:61)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.executeCommand(DefaultExecutionMediator.java:237)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.lambda$executeWithInterceptors$6(DefaultExecutionMediator.java:219)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.lambda$executeWithRetry$2(DefaultExecutionMediator.java:197)\n\tat net.jodah.failsafe.Functions.lambda$promiseOfStage$8(Functions.java:193)\n\tat net.jodah.failsafe.internal.executor.RetryPolicyExecutor$1.call(RetryPolicyExecutor.java:101)\n\tat net.jodah.failsafe.internal.executor.RetryPolicyExecutor.lambda$supplyAsync$1(RetryPolicyExecutor.java:133)\n\tat net.jodah.failsafe.Functions.lambda$null$1(Functions.java:69)\n\tat org.mule.runtime.core.internal.util.rx.ConditionalExecutorServiceDecorator.synchronousSchedule(ConditionalExecutorServiceDecorator.java:181)\n\tat org.mule.runtime.core.internal.util.rx.ConditionalExecutorServiceDecorator.schedule(ConditionalExecutorServiceDecorator.java:167)\n\tat net.jodah.failsafe.Functions.lambda$makeAsync$2(Functions.java:79)\n\tat net.jodah.failsafe.AsyncExecution.executeAsync(AsyncExecution.java:174)\n\tat net.jodah.failsafe.FailsafeExecutor.callAsync(FailsafeExecutor.java:346)\n\tat net.jodah.failsafe.FailsafeExecutor.getStageAsync(FailsafeExecutor.java:178)\n\tat org.mule.runtime.core.internal.retry.policies.SimpleRetryPolicy.applyPolicy(SimpleRetryPolicy.java:90)\n\tat org.mule.runtime.core.api.retry.policy.RetryPolicyTemplate.applyPolicy(RetryPolicyTemplate.java:143)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.executeWithRetry(DefaultExecutionMediator.java:195)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.executeWithInterceptors(DefaultExecutionMediator.java:219)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.lambda$execute$1(DefaultExecutionMediator.java:130)\n\tat org.mule.runtime.core.internal.execution.ExecuteCallbackInterceptor.execute(ExecuteCallbackInterceptor.java:15)\n\tat org.mule.runtime.core.internal.execution.BeginAndResolveTransactionInterceptor.execute(BeginAndResolveTransactionInterceptor.java:83)\n\tat org.mule.runtime.core.internal.execution.SuspendXaTransactionInterceptor.execute(SuspendXaTransactionInterceptor.java:46)\n\tat org.mule.runtime.core.internal.execution.ValidateTransactionalStateInterceptor.execute(ValidateTransactionalStateInterceptor.java:43)\n\tat org.mule.runtime.core.internal.execution.IsolateCurrentTransactionInterceptor.execute(IsolateCurrentTransactionInterceptor.java:37)\n\tat org.mule.runtime.core.api.execution.TransactionalExecutionTemplate.execute(TransactionalExecutionTemplate.java:158)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.withExecutionTemplate(DefaultExecutionMediator.java:313)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.execute(DefaultExecutionMediator.java:129)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.ComponentMessageProcessor.executeOperation(ComponentMessageProcessor.java:583)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.ComponentMessageProcessor.prepareAndExecuteOperation(ComponentMessageProcessor.java:822)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.ComponentMessageProcessor.access$100(ComponentMessageProcessor.java:204)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.ComponentMessageProcessor$4.lambda$innerEventDispatcher$6(ComponentMessageProcessor.java:681)\n\tat reactor.core.publisher.FluxPeekFuseable$PeekConditionalSubscriber.onNext(FluxPeekFuseable.java:832)\n\tat reactor.core.publisher.FluxPeekFuseable$PeekConditionalSubscriber.onNext(FluxPeekFuseable.java:846)\n\tat reactor.core.publisher.FluxSubscribeOnValue$ScheduledScalar.run(FluxSubscribeOnValue.java:178)\n\tat reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:50)\n\tat reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:27)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat org.mule.service.scheduler.internal.AbstractRunnableFutureDecorator.doRun(AbstractRunnableFutureDecorator.java:151)\n\tat org.mule.service.scheduler.internal.RunnableFutureDecorator.run(RunnableFutureDecorator.java:54)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n\n********************************************************************************\n",
+                    "priority": "ERROR",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.processor.LoggerMessageProcessor",
+                    "threadName": "[MuleRuntime].uber.02: [workday-to-wdh-user-sync-dev].workday-to-wdh-bcp-group-user-sync.BLOCKING @7e58f3c0",
+                    "timestamp": 1720501813963,
+                    "message": "event:81f445f0-3db1-11ef-9e95-069e6a2ec265 {Error Occurred={error_type=DB:QUERY_EXECUTION, error_description=java.sql.BatchUpdateException: Batch entry 0 INSERT INTO wdh.wdh_bcp_group_users(employee_id,bcp_worker_name,worker_email,manager_name,worker_status,hire_date,termination_date) VALUES((NULL),(NULL),(NULL),(NULL),(NULL),(NULL),(NULL)) on conflict (employee_id) DO update set\nemployee_id=excluded.employee_id,bcp_worker_name=excluded.bcp_worker_name,worker_email=excluded.worker_email,manager_name=excluded.manager_name,worker_status=excluded.worker_status,hire_date=excluded.hire_date,termination_date=excluded.termination_date was aborted: ERROR: null value in column \"employee_id\" of relation \"wdh_bcp_group_users\" violates not-null constraint\n  Detail: Failing row contains (1127, null, null, null, null, null, null, null, 2024-07-09 05:10:13.954856, wdh_support_dev, 2024-07-09 05:10:13.954856, wdh_support_dev).  Call getNextException to see other errors in the batch.}}",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.exception.OnErrorPropagateHandler",
+                    "threadName": "[MuleRuntime].uber.01: [workday-to-wdh-user-sync-dev].workday-to-wdh-bcp-group-user-sync.BLOCKING @7e58f3c0",
+                    "timestamp": 1720501814056,
+                    "message": "event:81f445f0-3db1-11ef-9e95-069e6a2ec265 Exception during exception strategy execution",
+                    "priority": "ERROR",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.exception.OnErrorPropagateHandler",
+                    "threadName": "[MuleRuntime].uber.01: [workday-to-wdh-user-sync-dev].workday-to-wdh-bcp-group-user-sync.BLOCKING @7e58f3c0",
+                    "timestamp": 1720501814058,
+                    "message": "event:81f445f0-3db1-11ef-9e95-069e6a2ec265 \n********************************************************************************\nMessage               : Path '/wdh/bcp_group_users/input/workday_bcp_group_users.csv' doesn't exist\nElement               : wdh-bcp-group-user-updation-sub/processors/0/errorHandler/0/processors/1 @ workday-to-wdh-user-sync-dev:subflows/wdh-bcp-group-user-updation-sub.xml:69 (Move File to Error Folder)\nElement DSL           : <sftp:move doc:name=\"Move File to Error Folder\" doc:id=\"cbc5c42f-c031-4901-9d28-94a5c45fd924\" config-ref=\"S3_bucket_SFTP_Config\" sourcePath=\"${bcp.group.user.file.pickup.path}\" targetPath=\"#[p('bcp.group.user.file.error.path') ++ \"/\" ++ (now() as Date {format:'yyyy_MM_dd'})]\"></sftp:move>\nError type            : SFTP:ILLEGAL_PATH\nFlowStack             : at wdh-bcp-group-user-updation-sub(wdh-bcp-group-user-updation-sub/processors/0/errorHandler/0/processors/1 @ workday-to-wdh-user-sync-dev:subflows/wdh-bcp-group-user-updation-sub.xml:69 (Move File to Error Folder))\nat workday-to-wdh-bcp-group-user-sync(workday-to-wdh-bcp-group-user-sync/processors/4/route/0/processors/0 @ workday-to-wdh-user-sync-dev:workday-to-wdh-bcp-group-user-sync .xml:35 (BCP Group User Updation Sub Flow))\nPayload Type          : java.util.ArrayList\n--------------------------------------------------------------------------------\nRoot Exception stack trace:\nPath '/wdh/bcp_group_users/input/workday_bcp_group_users.csv' doesn't exist\n\tat org.mule.extension.file.common.api.command.AbstractFileCommand.pathNotFoundException(AbstractFileCommand.java:176)\n\tat org.mule.extension.sftp.internal.command.SftpCommand.getFile(SftpCommand.java:104)\n\tat org.mule.extension.sftp.internal.command.SftpCommand.getExistingFile(SftpCommand.java:72)\n\tat org.mule.extension.sftp.internal.command.SftpCommand.copy(SftpCommand.java:224)\n\tat org.mule.extension.sftp.internal.command.SftpMoveCommand.move(SftpMoveCommand.java:39)\n\tat org.mule.extension.file.common.api.AbstractFileSystem.move(AbstractFileSystem.java:183)\n\tat org.mule.extension.file.common.api.BaseFileSystemOperations.doMove(BaseFileSystemOperations.java:387)\n\tat org.mule.extension.sftp.internal.SftpOperations.move(SftpOperations.java:245)\n\tat org.mule.extension.sftp.internal.SftpOperations$move$MethodComponentExecutor_workday_to_wdh_user_sync_dev.execute(Unknown Source)\n\tat org.mule.runtime.module.extension.internal.runtime.execution.GeneratedMethodComponentExecutor.execute(GeneratedMethodComponentExecutor.java:94)\n\tat org.mule.runtime.module.extension.internal.runtime.execution.CompletableMethodOperationExecutor.doExecute(CompletableMethodOperationExecutor.java:26)\n\tat org.mule.runtime.module.extension.internal.runtime.execution.AbstractCompletableMethodOperationExecutor.execute(AbstractCompletableMethodOperationExecutor.java:61)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.executeCommand(DefaultExecutionMediator.java:237)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.lambda$executeWithInterceptors$6(DefaultExecutionMediator.java:219)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.lambda$executeWithRetry$2(DefaultExecutionMediator.java:197)\n\tat net.jodah.failsafe.Functions.lambda$promiseOfStage$8(Functions.java:193)\n\tat net.jodah.failsafe.internal.executor.RetryPolicyExecutor$1.call(RetryPolicyExecutor.java:101)\n\tat net.jodah.failsafe.internal.executor.RetryPolicyExecutor.lambda$supplyAsync$1(RetryPolicyExecutor.java:133)\n\tat net.jodah.failsafe.Functions.lambda$null$1(Functions.java:69)\n\tat org.mule.runtime.core.internal.util.rx.ConditionalExecutorServiceDecorator.synchronousSchedule(ConditionalExecutorServiceDecorator.java:181)\n\tat org.mule.runtime.core.internal.util.rx.ConditionalExecutorServiceDecorator.schedule(ConditionalExecutorServiceDecorator.java:167)\n\tat net.jodah.failsafe.Functions.lambda$makeAsync$2(Functions.java:79)\n\tat net.jodah.failsafe.AsyncExecution.executeAsync(AsyncExecution.java:174)\n\tat net.jodah.failsafe.FailsafeExecutor.callAsync(FailsafeExecutor.java:346)\n\tat net.jodah.failsafe.FailsafeExecutor.getStageAsync(FailsafeExecutor.java:178)\n\tat org.mule.runtime.core.internal.retry.policies.SimpleRetryPolicy.applyPolicy(SimpleRetryPolicy.java:90)\n\tat org.mule.runtime.core.api.retry.policy.RetryPolicyTemplate.applyPolicy(RetryPolicyTemplate.java:143)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.executeWithRetry(DefaultExecutionMediator.java:195)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.executeWithInterceptors(DefaultExecutionMediator.java:219)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.lambda$execute$1(DefaultExecutionMediator.java:130)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.lambda$new$0(DefaultExecutionMediator.java:73)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.withExecutionTemplate(DefaultExecutionMediator.java:316)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.execute(DefaultExecutionMediator.java:129)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.ComponentMessageProcessor.executeOperation(ComponentMessageProcessor.java:583)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.ComponentMessageProcessor.prepareAndExecuteOperation(ComponentMessageProcessor.java:822)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.ComponentMessageProcessor.access$100(ComponentMessageProcessor.java:204)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.ComponentMessageProcessor$4.lambda$innerEventDispatcher$6(ComponentMessageProcessor.java:681)\n\tat reactor.core.publisher.FluxPeekFuseable$PeekConditionalSubscriber.onNext(FluxPeekFuseable.java:832)\n\tat reactor.core.publisher.FluxPeekFuseable$PeekConditionalSubscriber.onNext(FluxPeekFuseable.java:846)\n\tat reactor.core.publisher.FluxSubscribeOnValue$ScheduledScalar.run(FluxSubscribeOnValue.java:178)\n\tat reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:50)\n\tat reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:27)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat org.mule.service.scheduler.internal.AbstractRunnableFutureDecorator.doRun(AbstractRunnableFutureDecorator.java:151)\n\tat org.mule.service.scheduler.internal.RunnableFutureDecorator.run(RunnableFutureDecorator.java:54)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n\n********************************************************************************\n",
+                    "priority": "ERROR",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.exception.OnErrorPropagateHandler",
+                    "threadName": "[MuleRuntime].uber.01: [workday-to-wdh-user-sync-dev].workday-to-wdh-bcp-group-user-sync.BLOCKING @7e58f3c0",
+                    "timestamp": 1720501814058,
+                    "message": "event:81f445f0-3db1-11ef-9e95-069e6a2ec265 org.mule.runtime.api.functional.Either cannot be cast to org.mule.runtime.core.api.event.CoreEvent",
+                    "priority": "WARN",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.processor.LoggerMessageProcessor",
+                    "threadName": "[MuleRuntime].uber.01: [workday-to-wdh-user-sync-dev].workday-to-wdh-bcp-group-user-sync.BLOCKING @7e58f3c0",
+                    "timestamp": 1720501814060,
+                    "message": "event:81f445f0-3db1-11ef-9e95-069e6a2ec265 ============= Other Issues than Validation Started=============",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "Execution Error Message",
+                    "threadName": "[MuleRuntime].uber.01: [workday-to-wdh-user-sync-dev].workday-to-wdh-bcp-group-user-sync.BLOCKING @7e58f3c0",
+                    "timestamp": 1720501814062,
+                    "message": "event:81f445f0-3db1-11ef-9e95-069e6a2ec265 error-logger-sub is started",
+                    "priority": "ERROR",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.processor.LoggerMessageProcessor",
+                    "threadName": "[MuleRuntime].uber.02: [workday-to-wdh-user-sync-dev].logger-sub.CPU_LITE @609ea4c5",
+                    "timestamp": 1720501814071,
+                    "message": "event:81f445f0-3db1-11ef-9e95-069e6a2ec265 \"IMF Flow Init - \\\"Path '/wdh/bcp_group_users/input/workday_bcp_group_users.csv' doesn't exist\\\" as String {class: \\\"java.lang.String\\\"}\"",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.processor.LoggerMessageProcessor",
+                    "threadName": "[MuleRuntime].uber.02: [workday-to-wdh-user-sync-dev].logger-sub.CPU_LITE @609ea4c5",
+                    "timestamp": 1720501814203,
+                    "message": "event:81f445f0-3db1-11ef-9e95-069e6a2ec265 \"Http Status:200,Data published succesfully\"",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "Execution Error Message",
+                    "threadName": "[MuleRuntime].uber.02: [workday-to-wdh-user-sync-dev].logger-sub.CPU_LITE @609ea4c5",
+                    "timestamp": 1720501814208,
+                    "message": "event:81f445f0-3db1-11ef-9e95-069e6a2ec265 error-logger-sub is ended",
+                    "priority": "ERROR",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.processor.LoggerMessageProcessor",
+                    "threadName": "[MuleRuntime].uber.02: [workday-to-wdh-user-sync-dev].logger-sub.CPU_LITE @609ea4c5",
+                    "timestamp": 1720501814210,
+                    "message": "event:81f445f0-3db1-11ef-9e95-069e6a2ec265 ============= Other Issues than Validation Ended=============",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.exception.DefaultSystemExceptionStrategy",
+                    "threadName": "[MuleRuntime].uber.02: [workday-to-wdh-user-sync-dev].logger-sub.CPU_LITE @609ea4c5",
+                    "timestamp": 1720501814217,
+                    "message": "event:81f445f0-3db1-11ef-9e95-069e6a2ec265 \n********************************************************************************\nMessage               : Path '/wdh/bcp_group_users/input/workday_bcp_group_users.csv' doesn't exist\nElement               : wdh-bcp-group-user-updation-sub/processors/0/errorHandler/0/processors/1 @ workday-to-wdh-user-sync-dev:subflows/wdh-bcp-group-user-updation-sub.xml:69 (Move File to Error Folder)\nElement DSL           : <sftp:move doc:name=\"Move File to Error Folder\" doc:id=\"cbc5c42f-c031-4901-9d28-94a5c45fd924\" config-ref=\"S3_bucket_SFTP_Config\" sourcePath=\"${bcp.group.user.file.pickup.path}\" targetPath=\"#[p('bcp.group.user.file.error.path') ++ \"/\" ++ (now() as Date {format:'yyyy_MM_dd'})]\"></sftp:move>\nError type            : SFTP:ILLEGAL_PATH\nFlowStack             : at wdh-bcp-group-user-updation-sub(wdh-bcp-group-user-updation-sub/processors/0/errorHandler/0/processors/1 @ workday-to-wdh-user-sync-dev:subflows/wdh-bcp-group-user-updation-sub.xml:69 (Move File to Error Folder))\nat workday-to-wdh-bcp-group-user-sync(workday-to-wdh-bcp-group-user-sync/processors/4/route/0/processors/0 @ workday-to-wdh-user-sync-dev:workday-to-wdh-bcp-group-user-sync .xml:35 (BCP Group User Updation Sub Flow))\nPayload Type          : java.util.ArrayList\n--------------------------------------------------------------------------------\nRoot Exception stack trace:\nPath '/wdh/bcp_group_users/input/workday_bcp_group_users.csv' doesn't exist\n\tat org.mule.extension.file.common.api.command.AbstractFileCommand.pathNotFoundException(AbstractFileCommand.java:176)\n\tat org.mule.extension.sftp.internal.command.SftpCommand.getFile(SftpCommand.java:104)\n\tat org.mule.extension.sftp.internal.command.SftpCommand.getExistingFile(SftpCommand.java:72)\n\tat org.mule.extension.sftp.internal.command.SftpCommand.copy(SftpCommand.java:224)\n\tat org.mule.extension.sftp.internal.command.SftpMoveCommand.move(SftpMoveCommand.java:39)\n\tat org.mule.extension.file.common.api.AbstractFileSystem.move(AbstractFileSystem.java:183)\n\tat org.mule.extension.file.common.api.BaseFileSystemOperations.doMove(BaseFileSystemOperations.java:387)\n\tat org.mule.extension.sftp.internal.SftpOperations.move(SftpOperations.java:245)\n\tat org.mule.extension.sftp.internal.SftpOperations$move$MethodComponentExecutor_workday_to_wdh_user_sync_dev.execute(Unknown Source)\n\tat org.mule.runtime.module.extension.internal.runtime.execution.GeneratedMethodComponentExecutor.execute(GeneratedMethodComponentExecutor.java:94)\n\tat org.mule.runtime.module.extension.internal.runtime.execution.CompletableMethodOperationExecutor.doExecute(CompletableMethodOperationExecutor.java:26)\n\tat org.mule.runtime.module.extension.internal.runtime.execution.AbstractCompletableMethodOperationExecutor.execute(AbstractCompletableMethodOperationExecutor.java:61)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.executeCommand(DefaultExecutionMediator.java:237)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.lambda$executeWithInterceptors$6(DefaultExecutionMediator.java:219)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.lambda$executeWithRetry$2(DefaultExecutionMediator.java:197)\n\tat net.jodah.failsafe.Functions.lambda$promiseOfStage$8(Functions.java:193)\n\tat net.jodah.failsafe.internal.executor.RetryPolicyExecutor$1.call(RetryPolicyExecutor.java:101)\n\tat net.jodah.failsafe.internal.executor.RetryPolicyExecutor.lambda$supplyAsync$1(RetryPolicyExecutor.java:133)\n\tat net.jodah.failsafe.Functions.lambda$null$1(Functions.java:69)\n\tat org.mule.runtime.core.internal.util.rx.ConditionalExecutorServiceDecorator.synchronousSchedule(ConditionalExecutorServiceDecorator.java:181)\n\tat org.mule.runtime.core.internal.util.rx.ConditionalExecutorServiceDecorator.schedule(ConditionalExecutorServiceDecorator.java:167)\n\tat net.jodah.failsafe.Functions.lambda$makeAsync$2(Functions.java:79)\n\tat net.jodah.failsafe.AsyncExecution.executeAsync(AsyncExecution.java:174)\n\tat net.jodah.failsafe.FailsafeExecutor.callAsync(FailsafeExecutor.java:346)\n\tat net.jodah.failsafe.FailsafeExecutor.getStageAsync(FailsafeExecutor.java:178)\n\tat org.mule.runtime.core.internal.retry.policies.SimpleRetryPolicy.applyPolicy(SimpleRetryPolicy.java:90)\n\tat org.mule.runtime.core.api.retry.policy.RetryPolicyTemplate.applyPolicy(RetryPolicyTemplate.java:143)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.executeWithRetry(DefaultExecutionMediator.java:195)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.executeWithInterceptors(DefaultExecutionMediator.java:219)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.lambda$execute$1(DefaultExecutionMediator.java:130)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.lambda$new$0(DefaultExecutionMediator.java:73)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.withExecutionTemplate(DefaultExecutionMediator.java:316)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.execute(DefaultExecutionMediator.java:129)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.ComponentMessageProcessor.executeOperation(ComponentMessageProcessor.java:583)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.ComponentMessageProcessor.prepareAndExecuteOperation(ComponentMessageProcessor.java:822)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.ComponentMessageProcessor.access$100(ComponentMessageProcessor.java:204)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.ComponentMessageProcessor$4.lambda$innerEventDispatcher$6(ComponentMessageProcessor.java:681)\n\tat reactor.core.publisher.FluxPeekFuseable$PeekConditionalSubscriber.onNext(FluxPeekFuseable.java:832)\n\tat reactor.core.publisher.FluxPeekFuseable$PeekConditionalSubscriber.onNext(FluxPeekFuseable.java:846)\n\tat reactor.core.publisher.FluxSubscribeOnValue$ScheduledScalar.run(FluxSubscribeOnValue.java:178)\n\tat reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:50)\n\tat reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:27)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat org.mule.service.scheduler.internal.AbstractRunnableFutureDecorator.doRun(AbstractRunnableFutureDecorator.java:151)\n\tat org.mule.service.scheduler.internal.RunnableFutureDecorator.run(RunnableFutureDecorator.java:54)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n\n********************************************************************************\n",
+                    "priority": "ERROR",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.processor.LoggerMessageProcessor",
+                    "threadName": "[MuleRuntime].uber.01: [workday-to-wdh-user-sync-dev].workday-to-wdh-bcp-group-user-sync.CPU_LITE @3c7a2943",
+                    "timestamp": 1720537806199,
+                    "message": "event:531d1c30-3e05-11ef-9e95-069e6a2ec265 ---------Workday To WDH BCP Flow Started at 2024-07-09T15:10:06.198Z,ExecutionId:8e10ce2b-12f0-4025-8d81-5c1e893d2697--------------------------",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.exception.OnErrorContinueHandler",
+                    "threadName": "[MuleRuntime].uber.02: [workday-to-wdh-user-sync-dev].workday-to-wdh-bcp-group-user-sync.CPU_LITE @3c7a2943",
+                    "timestamp": 1720537815716,
+                    "message": "\n********************************************************************************\nMessage               : Path '/wdh/bcp_group_users/input/workday_bcp_group_users.csv' doesn't exist\nElement               : workday-to-wdh-bcp-group-user-sync/processors/3/processors/0 @ workday-to-wdh-user-sync-dev:workday-to-wdh-bcp-group-user-sync .xml:23 (Read BCP Group User File)\nElement DSL           : <sftp:read doc:name=\"Read BCP Group User File\" doc:id=\"c915c1ef-9dda-4e59-bc90-cc808a5fd5de\" config-ref=\"S3_bucket_SFTP_Config\" path=\"${bcp.group.user.file.pickup.path}\"></sftp:read>\nError type            : SFTP:ILLEGAL_PATH\nFlowStack             : at workday-to-wdh-bcp-group-user-sync(workday-to-wdh-bcp-group-user-sync/processors/3/processors/0 @ workday-to-wdh-user-sync-dev:workday-to-wdh-bcp-group-user-sync .xml:23 (Read BCP Group User File))\nPayload               : null\nPayload Type          : null\n--------------------------------------------------------------------------------\nRoot Exception stack trace:\nPath '/wdh/bcp_group_users/input/workday_bcp_group_users.csv' doesn't exist\n\tat org.mule.extension.file.common.api.command.AbstractFileCommand.pathNotFoundException(AbstractFileCommand.java:176)\n\tat org.mule.extension.sftp.internal.command.SftpCommand.getFile(SftpCommand.java:104)\n\tat org.mule.extension.sftp.internal.command.SftpCommand.getExistingFile(SftpCommand.java:72)\n\tat org.mule.extension.sftp.internal.command.SftpReadCommand.read(SftpReadCommand.java:56)\n\tat org.mule.extension.file.common.api.AbstractFileSystem.read(AbstractFileSystem.java:145)\n\tat org.mule.extension.file.common.api.BaseFileSystemOperations.doRead(BaseFileSystemOperations.java:253)\n\tat org.mule.extension.sftp.internal.SftpOperations.read(SftpOperations.java:139)\n\tat org.mule.extension.sftp.internal.SftpOperations$read$MethodComponentExecutor_workday_to_wdh_user_sync_dev.execute(Unknown Source)\n\tat org.mule.runtime.module.extension.internal.runtime.execution.GeneratedMethodComponentExecutor.execute(GeneratedMethodComponentExecutor.java:94)\n\tat org.mule.runtime.module.extension.internal.runtime.execution.CompletableMethodOperationExecutor.doExecute(CompletableMethodOperationExecutor.java:26)\n\tat org.mule.runtime.module.extension.internal.runtime.execution.AbstractCompletableMethodOperationExecutor.execute(AbstractCompletableMethodOperationExecutor.java:61)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.executeCommand(DefaultExecutionMediator.java:237)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.lambda$executeWithInterceptors$6(DefaultExecutionMediator.java:219)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.lambda$executeWithRetry$2(DefaultExecutionMediator.java:197)\n\tat net.jodah.failsafe.Functions.lambda$promiseOfStage$8(Functions.java:193)\n\tat net.jodah.failsafe.internal.executor.RetryPolicyExecutor$1.call(RetryPolicyExecutor.java:101)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat org.mule.service.scheduler.internal.AbstractRunnableFutureDecorator.doRun(AbstractRunnableFutureDecorator.java:151)\n\tat org.mule.service.scheduler.internal.RunnableFutureDecorator.run(RunnableFutureDecorator.java:54)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n\n********************************************************************************\n",
+                    "priority": "ERROR",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.processor.LoggerMessageProcessor",
+                    "threadName": "[MuleRuntime].uber.02: [workday-to-wdh-user-sync-dev].workday-to-wdh-bcp-group-user-sync.CPU_LITE @3c7a2943",
+                    "timestamp": 1720537815717,
+                    "message": "event:531d1c30-3e05-11ef-9e95-069e6a2ec265 ========================= Issues in Read File Connector Started ============================",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "Execution Error Message",
+                    "threadName": "[MuleRuntime].uber.02: [workday-to-wdh-user-sync-dev].workday-to-wdh-bcp-group-user-sync.CPU_LITE @3c7a2943",
+                    "timestamp": 1720537815723,
+                    "message": "event:531d1c30-3e05-11ef-9e95-069e6a2ec265 Error Message ::: Path '/wdh/bcp_group_users/input/workday_bcp_group_users.csv' doesn't exist",
+                    "priority": "ERROR",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.processor.LoggerMessageProcessor",
+                    "threadName": "[MuleRuntime].uber.02: [workday-to-wdh-user-sync-dev].workday-to-wdh-bcp-group-user-sync.CPU_LITE @3c7a2943",
+                    "timestamp": 1720537815725,
+                    "message": "event:531d1c30-3e05-11ef-9e95-069e6a2ec265 =========  Email Error notification flow started at 2024-07-09T15:10:15.724Z[UTC]===============",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.processor.LoggerMessageProcessor",
+                    "threadName": "[MuleRuntime].uber.02: [workday-to-wdh-user-sync-dev].workday-to-wdh-bcp-group-user-sync.BLOCKING @7e58f3c0",
+                    "timestamp": 1720537816066,
+                    "message": "event:531d1c30-3e05-11ef-9e95-069e6a2ec265 =========  Email notification flow Ended at 2024-07-09T15:10:16.063Z[UTC] ===============",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.processor.LoggerMessageProcessor",
+                    "threadName": "[MuleRuntime].uber.02: [workday-to-wdh-user-sync-dev].workday-to-wdh-bcp-group-user-sync.BLOCKING @7e58f3c0",
+                    "timestamp": 1720537816067,
+                    "message": "event:531d1c30-3e05-11ef-9e95-069e6a2ec265 ========================= Issues in Read File Connector Ended ============================",
+                    "priority": "INFO",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.db.commons.shaded.internal.domain.executor.AbstractExecutor",
+                    "threadName": "[MuleRuntime].uber.02: [workday-to-wdh-user-sync-dev].workday-to-wdh-bcp-group-user-sync.BLOCKING @7e58f3c0",
+                    "timestamp": 1720537816100,
+                    "message": "event:531d1c30-3e05-11ef-9e95-069e6a2ec265 BULK UPDATE EXCEPTION: 0 SUCCESSFUL OPERATIONS, 1 FAILED OPERATIONS.",
+                    "priority": "ERROR",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                },
+                {
+                    "loggerName": "org.mule.runtime.core.internal.exception.OnErrorPropagateHandler",
+                    "threadName": "[MuleRuntime].uber.02: [workday-to-wdh-user-sync-dev].workday-to-wdh-bcp-group-user-sync.BLOCKING @7e58f3c0",
+                    "timestamp": 1720537816104,
+                    "message": "event:531d1c30-3e05-11ef-9e95-069e6a2ec265 \n********************************************************************************\nMessage               : java.sql.BatchUpdateException: Batch entry 0 INSERT INTO wdh.wdh_bcp_group_users(employee_id,bcp_worker_name,worker_email,manager_name,worker_status,hire_date,termination_date) VALUES((NULL),(NULL),(NULL),(NULL),(NULL),(NULL),(NULL)) on conflict (employee_id) DO update set\nemployee_id=excluded.employee_id,bcp_worker_name=excluded.bcp_worker_name,worker_email=excluded.worker_email,manager_name=excluded.manager_name,worker_status=excluded.worker_status,hire_date=excluded.hire_date,termination_date=excluded.termination_date was aborted: ERROR: null value in column \"employee_id\" of relation \"wdh_bcp_group_users\" violates not-null constraint\n  Detail: Failing row contains (1128, null, null, null, null, null, null, null, 2024-07-09 15:10:16.09729, wdh_support_dev, 2024-07-09 15:10:16.09729, wdh_support_dev).  Call getNextException to see other errors in the batch.\nElement               : wdh-bcp-group-user-updation-sub/processors/0/processors/1 @ workday-to-wdh-user-sync-dev:subflows/wdh-bcp-group-user-updation-sub.xml:29 (Bulk Inserting Records to WDH)\nElement DSL           : <db:bulk-insert doc:name=\"Bulk Inserting Records to WDH\" doc:id=\"97735d3d-4451-437e-90fd-f07e4e77b959\" config-ref=\"WDH_Database_Config\" target=\"bulkInsertResponse\">\n<db:sql><![CDATA[\n${file::sql/bulk-insert-data-to-wdh.sql}\n]]></db:sql>\n</db:bulk-insert>\nError type            : DB:QUERY_EXECUTION\nFlowStack             : at wdh-bcp-group-user-updation-sub(wdh-bcp-group-user-updation-sub/processors/0/processors/1 @ workday-to-wdh-user-sync-dev:subflows/wdh-bcp-group-user-updation-sub.xml:29 (Bulk Inserting Records to WDH))\nat workday-to-wdh-bcp-group-user-sync(workday-to-wdh-bcp-group-user-sync/processors/4/route/0/processors/0 @ workday-to-wdh-user-sync-dev:workday-to-wdh-bcp-group-user-sync .xml:35 (BCP Group User Updation Sub Flow))\nPayload Type          : java.util.ArrayList\n--------------------------------------------------------------------------------\nRoot Exception stack trace:\norg.postgresql.util.PSQLException: ERROR: null value in column \"employee_id\" of relation \"wdh_bcp_group_users\" violates not-null constraint\n  Detail: Failing row contains (1128, null, null, null, null, null, null, null, 2024-07-09 15:10:16.09729, wdh_support_dev, 2024-07-09 15:10:16.09729, wdh_support_dev).\n\tat org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)\n\tat org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)\n\tat org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:579)\n\tat org.postgresql.jdbc.PgStatement.internalExecuteBatch(PgStatement.java:912)\n\tat org.postgresql.jdbc.PgStatement.executeBatch(PgStatement.java:936)\n\tat org.postgresql.jdbc.PgPreparedStatement.executeBatch(PgPreparedStatement.java:1733)\n\tat com.mchange.v2.c3p0.impl.NewProxyPreparedStatement.executeBatch(NewProxyPreparedStatement.java:2544)\n\tat org.mule.db.commons.shaded.internal.domain.executor.BulkUpdateExecutor.execute(BulkUpdateExecutor.java:79)\n\tat org.mule.db.commons.shaded.internal.operation.BulkOperations.singleQueryBulk(BulkOperations.java:204)\n\tat org.mule.db.commons.shaded.internal.operation.BulkOperations.bulkInsert(BulkOperations.java:107)\n\tat org.mule.extension.db.internal.operation.DbBulkOperations.bulkInsert(DbBulkOperations.java:75)\n\tat org.mule.extension.db.internal.operation.DbBulkOperations$bulkInsert$MethodComponentExecutor_workday_to_wdh_user_sync_dev.execute(Unknown Source)\n\tat org.mule.runtime.module.extension.internal.runtime.execution.GeneratedMethodComponentExecutor.execute(GeneratedMethodComponentExecutor.java:94)\n\tat org.mule.runtime.module.extension.internal.runtime.execution.CompletableMethodOperationExecutor.doExecute(CompletableMethodOperationExecutor.java:26)\n\tat org.mule.runtime.module.extension.internal.runtime.execution.AbstractCompletableMethodOperationExecutor.execute(AbstractCompletableMethodOperationExecutor.java:61)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.executeCommand(DefaultExecutionMediator.java:237)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.lambda$executeWithInterceptors$6(DefaultExecutionMediator.java:219)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.lambda$executeWithRetry$2(DefaultExecutionMediator.java:197)\n\tat net.jodah.failsafe.Functions.lambda$promiseOfStage$8(Functions.java:193)\n\tat net.jodah.failsafe.internal.executor.RetryPolicyExecutor$1.call(RetryPolicyExecutor.java:101)\n\tat net.jodah.failsafe.internal.executor.RetryPolicyExecutor.lambda$supplyAsync$1(RetryPolicyExecutor.java:133)\n\tat net.jodah.failsafe.Functions.lambda$null$1(Functions.java:69)\n\tat org.mule.runtime.core.internal.util.rx.ConditionalExecutorServiceDecorator.synchronousSchedule(ConditionalExecutorServiceDecorator.java:181)\n\tat org.mule.runtime.core.internal.util.rx.ConditionalExecutorServiceDecorator.schedule(ConditionalExecutorServiceDecorator.java:167)\n\tat net.jodah.failsafe.Functions.lambda$makeAsync$2(Functions.java:79)\n\tat net.jodah.failsafe.AsyncExecution.executeAsync(AsyncExecution.java:174)\n\tat net.jodah.failsafe.FailsafeExecutor.callAsync(FailsafeExecutor.java:346)\n\tat net.jodah.failsafe.FailsafeExecutor.getStageAsync(FailsafeExecutor.java:178)\n\tat org.mule.runtime.core.internal.retry.policies.SimpleRetryPolicy.applyPolicy(SimpleRetryPolicy.java:90)\n\tat org.mule.runtime.core.api.retry.policy.RetryPolicyTemplate.applyPolicy(RetryPolicyTemplate.java:143)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.executeWithRetry(DefaultExecutionMediator.java:195)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.executeWithInterceptors(DefaultExecutionMediator.java:219)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.lambda$execute$1(DefaultExecutionMediator.java:130)\n\tat org.mule.runtime.core.internal.execution.ExecuteCallbackInterceptor.execute(ExecuteCallbackInterceptor.java:15)\n\tat org.mule.runtime.core.internal.execution.BeginAndResolveTransactionInterceptor.execute(BeginAndResolveTransactionInterceptor.java:83)\n\tat org.mule.runtime.core.internal.execution.SuspendXaTransactionInterceptor.execute(SuspendXaTransactionInterceptor.java:46)\n\tat org.mule.runtime.core.internal.execution.ValidateTransactionalStateInterceptor.execute(ValidateTransactionalStateInterceptor.java:43)\n\tat org.mule.runtime.core.internal.execution.IsolateCurrentTransactionInterceptor.execute(IsolateCurrentTransactionInterceptor.java:37)\n\tat org.mule.runtime.core.api.execution.TransactionalExecutionTemplate.execute(TransactionalExecutionTemplate.java:158)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.withExecutionTemplate(DefaultExecutionMediator.java:313)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.DefaultExecutionMediator.execute(DefaultExecutionMediator.java:129)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.ComponentMessageProcessor.executeOperation(ComponentMessageProcessor.java:583)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.ComponentMessageProcessor.prepareAndExecuteOperation(ComponentMessageProcessor.java:822)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.ComponentMessageProcessor.access$100(ComponentMessageProcessor.java:204)\n\tat org.mule.runtime.module.extension.internal.runtime.operation.ComponentMessageProcessor$4.lambda$innerEventDispatcher$6(ComponentMessageProcessor.java:681)\n\tat reactor.core.publisher.FluxPeekFuseable$PeekConditionalSubscriber.onNext(FluxPeekFuseable.java:832)\n\tat reactor.core.publisher.FluxPeekFuseable$PeekConditionalSubscriber.onNext(FluxPeekFuseable.java:846)\n\tat reactor.core.publisher.FluxSubscribeOnValue$ScheduledScalar.run(FluxSubscribeOnValue.java:178)\n\tat reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:50)\n\tat reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:27)\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\n\tat org.mule.service.scheduler.internal.AbstractRunnableFutureDecorator.doRun(AbstractRunnableFutureDecorator.java:151)\n\tat org.mule.service.scheduler.internal.RunnableFutureDecorator.run(RunnableFutureDecorator.java:54)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:750)\n\n********************************************************************************\n",
+                    "priority": "ERROR",
+                    "instanceId": "668c1f0ded535a0d02a5dfa4-0"
+                }
+            ],
+            "total": 0
+        }
+    }

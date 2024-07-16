@@ -1,0 +1,365 @@
+    {
+      "statusCode": 200,
+      "statusMessage": "Success",
+      "statusDescription": "Applications Details are listed",
+      "dateTime": "2024-07-15T13:02:27.341Z",
+      "transactionId": "023f5741-225a-4ede-96a4-ccede4f1a604",
+      "data": [
+        {
+          "id": "63d2a25369b7e21299a66625",
+          "href": "http://anypoint.mulesoft.com:8080/api/applications/as2-receiver-dev",
+          "domain": "as2-receiver-dev",
+          "fullDomain": "as2-receiver-dev.us-w2.cloudhub.io",
+          "properties": {
+            "anypoint.platform.client_id": "*********************************",
+            "encryptionkey": "*********************************",
+            "env": "dev",
+            "anypoint.platform.client_secret": "*********************************"
+          },
+          "propertiesOptions": {
+            "anypoint.platform.client_id": {
+              "secure": true
+            },
+            "as2.exelixis.privatekey.password": {
+              "secure": true
+            },
+            "as2.exelixis.keystore.password": {
+              "secure": true
+            },
+            "anypoint.platform.client_secret": {
+              "secure": true
+            },
+            "imf.http.client_secret": {
+              "secure": true
+            },
+            "encryptionkey": {
+              "secure": true
+            },
+            "jms.password": {
+              "secure": true
+            },
+            "imf.http.client_id": {
+              "secure": true
+            }
+          },
+          "status": "STARTED",
+          "workers": 1,
+          "workerType": "Micro",
+          "lastUpdateTime": 1720708530789,
+          "filename": "as2-receiver-1.0.0-SNAPSHOT-mule-application.jar",
+          "remainingWorkerCount": 7,
+          "muleVersion": "4.4.0",
+          "previousMuleVersion": "4.4.0",
+          "region": "us-west-2",
+          "deploymentGroupId": "5ac685b0de9e5022ac802747",
+          "hasFile": true,
+          "staticIPsEnabled": false,
+          "persistentQueues": false,
+          "monitoringAutoRestart": true,
+          "encryptedPersistentQueues": false,
+          "ipAddresses": [
+            
+          ],
+          "secureDataGateway": {
+            "connected": false
+          },
+          "secureDataGatewayEnabled": false,
+          "loggingNgEnabled": true,
+          "loggingCustomLog4JEnabled": false,
+          "cloudObjectStoreRegion": "us-west-2",
+          "managed": false
+        },
+        {
+          "id": "641d78736de356291e817d94",
+          "href": "http://anypoint.mulesoft.com:8080/api/applications/agiloft-data-sync-dev",
+          "domain": "agiloft-data-sync-dev",
+          "fullDomain": "agiloft-data-sync-dev.us-w2.cloudhub.io",
+          "properties": {
+            "anypoint.platform.client_id": "*********************************",
+            "encryptionkey": "*********************************",
+            "env": "dev",
+            "anypoint.platform.client_secret": "*********************************"
+          },
+          "propertiesOptions": {
+            "anypoint.platform.client_id": {
+              "secure": true
+            },
+            "db.password": {
+              "secure": true
+            },
+            "smtp.password": {
+              "secure": true
+            },
+            "anypoint.platform.client_secret": {
+              "secure": true
+            },
+            "encryptionkey": {
+              "secure": true
+            },
+            "jms.password": {
+              "secure": true
+            },
+            "http.agiloft.password": {
+              "secure": true
+            }
+          },
+          "status": "STARTED",
+          "workers": 1,
+          "workerType": "MICRO",
+          "lastUpdateTime": 1721039431509,
+          "filename": "clm-integration-1.0.0-SNAPSHOT-mule-application.jar",
+          "remainingWorkerCount": 7,
+          "muleVersion": "4.4.0",
+          "previousMuleVersion": "4.4.0",
+          "region": "us-west-2",
+          "deploymentGroupId": "5ac685b0de9e5022ac802747",
+          "hasFile": true,
+          "staticIPsEnabled": false,
+          "persistentQueues": false,
+          "monitoringAutoRestart": true,
+          "encryptedPersistentQueues": false,
+          "ipAddresses": [
+            
+          ],
+          "secureDataGateway": {
+            "connected": false
+          },
+          "secureDataGatewayEnabled": false,
+          "loggingNgEnabled": true,
+          "loggingCustomLog4JEnabled": false,
+          "cloudObjectStoreRegion": "us-west-2",
+          "managed": false
+        },
+        {
+          "id": "6463dd2319827176cc213209",
+          "href": "http://anypoint.mulesoft.com:8080/api/applications/workday-to-wdh-user-sync-dev",
+          "domain": "workday-to-wdh-user-sync-dev",
+          "fullDomain": "workday-to-wdh-user-sync-dev.us-w2.cloudhub.io",
+          "properties": {
+            "anypoint.platform.client_id": "*********************************",
+            "encryptionkey": "*********************************",
+            "env": "dev",
+            "anypoint.platform.client_secret": "*********************************"
+          },
+          "propertiesOptions": {
+            "anypoint.platform.client_id": {
+              "secure": true
+            },
+            "anypoint.platform.client_secret": {
+              "secure": true
+            },
+            "encryptionkey": {
+              "secure": true
+            }
+          },
+          "status": "STARTED",
+          "workers": 1,
+          "workerType": "Micro",
+          "lastUpdateTime": 1720459397824,
+          "filename": "workday-to-wdh-integration-app-1.0.1-SNAPSHOT-mule-application.jar",
+          "remainingWorkerCount": 7,
+          "muleVersion": "4.4.0",
+          "previousMuleVersion": "4.4.0",
+          "region": "us-west-2",
+          "deploymentGroupId": "5ac685b0de9e5022ac802747",
+          "hasFile": true,
+          "staticIPsEnabled": false,
+          "persistentQueues": false,
+          "monitoringAutoRestart": true,
+          "encryptedPersistentQueues": false,
+          "ipAddresses": [
+            
+          ],
+          "secureDataGateway": {
+            "connected": false
+          },
+          "secureDataGatewayEnabled": false,
+          "loggingNgEnabled": true,
+          "loggingCustomLog4JEnabled": false,
+          "cloudObjectStoreRegion": "us-west-2",
+          "managed": false
+        },
+        {
+          "id": "6463e03489014b106d09233d",
+          "href": "http://anypoint.mulesoft.com:8080/api/applications/wdh-to-jsm-user-sync-dev",
+          "domain": "wdh-to-jsm-user-sync-dev",
+          "fullDomain": "wdh-to-jsm-user-sync-dev.us-w2.cloudhub.io",
+          "properties": {
+            "anypoint.platform.client_id": "*********************************",
+            "encryptionkey": "*********************************",
+            "env": "dev",
+            "anypoint.platform.client_secret": "*********************************"
+          },
+          "propertiesOptions": {
+            "anypoint.platform.client_id": {
+              "secure": true
+            },
+            "db.password": {
+              "secure": true
+            },
+            "jsm.http.password": {
+              "secure": true
+            },
+            "smtp.password": {
+              "secure": true
+            },
+            "anypoint.platform.client_secret": {
+              "secure": true
+            },
+            "jsm.http.info.api.token": {
+              "secure": true
+            },
+            "imf.http.client_secret": {
+              "secure": true
+            },
+            "encryptionkey": {
+              "secure": true
+            }
+          },
+          "status": "STARTED",
+          "workers": 1,
+          "workerType": "Micro",
+          "lastUpdateTime": 1720000885646,
+          "filename": "wdh-to-jsm-user-sync-1.0.1-SNAPSHOT-mule-application.jar",
+          "remainingWorkerCount": 7,
+          "muleVersion": "4.4.0",
+          "previousMuleVersion": "4.4.0",
+          "region": "us-west-2",
+          "deploymentGroupId": "5ac685b0de9e5022ac802747",
+          "hasFile": true,
+          "staticIPsEnabled": false,
+          "persistentQueues": false,
+          "monitoringAutoRestart": true,
+          "encryptedPersistentQueues": false,
+          "ipAddresses": [
+            
+          ],
+          "secureDataGateway": {
+            "connected": false
+          },
+          "secureDataGatewayEnabled": false,
+          "loggingNgEnabled": true,
+          "loggingCustomLog4JEnabled": false,
+          "cloudObjectStoreRegion": "us-west-2",
+          "managed": false
+        },
+        {
+          "id": "64e3aaa438d3f34afd9ca44c",
+          "href": "http://anypoint.mulesoft.com:8080/api/applications/alliance-board-data-sync-dev",
+          "domain": "alliance-board-data-sync-dev",
+          "fullDomain": "alliance-board-data-sync-dev.us-w2.cloudhub.io",
+          "properties": {
+            "anypoint.platform.client_id": "1705f2234d344d139ea772267a25d9b3",
+            "encryptionkey": "*********************************",
+            "env": "dev",
+            "anypoint.platform.client_secret": "*********************************",
+            "jdk.tls.client.protocols": "TLSv1,TLSv1.1,TLSv1.2,TLSv1.3",
+            "jdk.tls.client.enableStatusRequestExtension": "true"
+          },
+          "propertiesOptions": {
+            "smtp.password": {
+              "secure": true
+            },
+            "anypoint.platform.client_secret": {
+              "secure": true
+            },
+            "wdh.jdbc.password": {
+              "secure": true
+            },
+            "allianceboard.http.pat": {
+              "secure": true
+            },
+            "imf.http.client_secret": {
+              "secure": true
+            },
+            "encryptionkey": {
+              "secure": true
+            }
+          },
+          "status": "STARTED",
+          "workers": 1,
+          "workerType": "Micro",
+          "lastUpdateTime": 1719949210735,
+          "filename": "alliance-board-data-sync-1.0.0-SNAPSHOT-mule-application.jar",
+          "remainingWorkerCount": 7,
+          "muleVersion": "4.4.0",
+          "previousMuleVersion": "4.4.0",
+          "region": "us-west-2",
+          "deploymentGroupId": "5ac685b0de9e5022ac802747",
+          "hasFile": true,
+          "staticIPsEnabled": false,
+          "persistentQueues": false,
+          "monitoringAutoRestart": true,
+          "encryptedPersistentQueues": false,
+          "ipAddresses": [
+            
+          ],
+          "secureDataGateway": {
+            "connected": false
+          },
+          "secureDataGatewayEnabled": false,
+          "loggingNgEnabled": true,
+          "loggingCustomLog4JEnabled": false,
+          "cloudObjectStoreRegion": "us-west-2",
+          "managed": false
+        },
+        {
+          "id": "6565fb612e354a2f34fb962b",
+          "href": "http://anypoint.mulesoft.com:8080/api/applications/alertmedia-data-sync-dev",
+          "domain": "alertmedia-data-sync-dev",
+          "fullDomain": "alertmedia-data-sync-dev.us-w2.cloudhub.io",
+          "properties": {
+            "anypoint.platform.client_id": "*********************************",
+            "encryptionkey": "*********************************",
+            "env": "dev",
+            "anypoint.platform.client_secret": "*********************************"
+          },
+          "propertiesOptions": {
+            "anypoint.platform.client_id": {
+              "secure": true
+            },
+            "smtp.password": {
+              "secure": true
+            },
+            "anypoint.platform.client_secret": {
+              "secure": true
+            },
+            "imf.client_secret": {
+              "secure": true
+            },
+            "wdh.jdbc.password": {
+              "secure": true
+            },
+            "encryptionkey": {
+              "secure": true
+            }
+          },
+          "status": "STARTED",
+          "workers": 1,
+          "workerType": "MICRO",
+          "lastUpdateTime": 1721039453885,
+          "filename": "wdh-alertmedia-worker-data-sync-1.0.0-SNAPSHOT-mule-application.jar",
+          "remainingWorkerCount": 7,
+          "muleVersion": "4.4.0",
+          "previousMuleVersion": "4.4.0",
+          "region": "us-west-2",
+          "deploymentGroupId": "5ac685b0de9e5022ac802747",
+          "hasFile": true,
+          "staticIPsEnabled": false,
+          "persistentQueues": false,
+          "monitoringAutoRestart": true,
+          "encryptedPersistentQueues": false,
+          "ipAddresses": [
+            
+          ],
+          "secureDataGateway": {
+            "connected": false
+          },
+          "secureDataGatewayEnabled": false,
+          "loggingNgEnabled": true,
+          "loggingCustomLog4JEnabled": false,
+          "cloudObjectStoreRegion": "us-west-2",
+          "managed": false
+        }
+      ]
+    }

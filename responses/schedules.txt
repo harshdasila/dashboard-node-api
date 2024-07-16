@@ -1,0 +1,114 @@
+{
+      "statusCode": 200,
+      "statusMessage": "Success",
+      "statusDescription": "Successfully fetched scheduler details",
+      "dateTime": "2024-07-16T10:11:38.324Z",
+      "transactionId": "6527cca0-ffb1-4d70-95aa-2b8c07bb246b",
+      "data": [
+        {
+          "id": "6463dd2319827176cc213209_workday-to-wdh-bcp-group-user-sync_workday-to-wdh-bcp-group-user-sync",
+          "flow": "workday-to-wdh-bcp-group-user-sync",
+          "name": "workday-to-wdh-bcp-group-user-sync_Scheduler",
+          "href": "http://anypoint.mulesoft.com:8080/api/applications/workday-to-wdh-user-sync-dev/schedules/6463dd2319827176cc213209_workday-to-wdh-bcp-group-user-sync_workday-to-wdh-bcp-group-user-sync",
+          "lastRun": "2024-07-16T06:21:25.361Z",
+          "enabled": true,
+          "status": "IDLE",
+          "schedule": {
+            "timeUnit": "milliseconds",
+            "period": -1,
+            "cronExpression": "0 10 5,15,20 * * ?"
+          },
+          "run-href": "http://anypoint.mulesoft.com:8080/api/applications/workday-to-wdh-user-sync-dev/schedules/6463dd2319827176cc213209_workday-to-wdh-bcp-group-user-sync_workday-to-wdh-bcp-group-user-sync/run"
+        },
+        {
+          "id": "6463dd2319827176cc213209_workday-to-wdh-job-change-main_workday-to-wdh-job-change-main",
+          "flow": "workday-to-wdh-job-change-main",
+          "name": "workday-to-wdh-job-change-main_Job Change Scheduler",
+          "href": "http://anypoint.mulesoft.com:8080/api/applications/workday-to-wdh-user-sync-dev/schedules/6463dd2319827176cc213209_workday-to-wdh-job-change-main_workday-to-wdh-job-change-main",
+          "lastRun": "2024-07-02T02:21:01.496Z",
+          "enabled": false,
+          "status": "IDLE",
+          "schedule": {
+            "timeUnit": "milliseconds",
+            "period": -1,
+            "cronExpression": "0 20 4,19,00 * * ?"
+          },
+          "run-href": "http://anypoint.mulesoft.com:8080/api/applications/workday-to-wdh-user-sync-dev/schedules/6463dd2319827176cc213209_workday-to-wdh-job-change-main_workday-to-wdh-job-change-main/run"
+        },
+        {
+          "id": "6463dd2319827176cc213209_workday-to-wdh-long-term-time-off-sync-main_workday-to-wdh-long-term-time-off-sync-main",
+          "flow": "workday-to-wdh-long-term-time-off-sync-main",
+          "name": "workday-to-wdh-long-term-time-off-sync-main_Long Term Time Off Scheduler",
+          "href": "http://anypoint.mulesoft.com:8080/api/applications/workday-to-wdh-user-sync-dev/schedules/6463dd2319827176cc213209_workday-to-wdh-long-term-time-off-sync-main_workday-to-wdh-long-term-time-off-sync-main",
+          "lastRun": "2024-07-04T12:12:00.965Z",
+          "enabled": false,
+          "status": "IDLE",
+          "schedule": {
+            "timeUnit": "milliseconds",
+            "period": -1,
+            "cronExpression": "7 23 3,17,23 * * ?"
+          },
+          "run-href": "http://anypoint.mulesoft.com:8080/api/applications/workday-to-wdh-user-sync-dev/schedules/6463dd2319827176cc213209_workday-to-wdh-long-term-time-off-sync-main_workday-to-wdh-long-term-time-off-sync-main/run"
+        },
+        {
+          "id": "6463dd2319827176cc213209_workday-to-wdh-new-hire-main_workday-to-wdh-new-hire-main",
+          "flow": "workday-to-wdh-new-hire-main",
+          "name": "workday-to-wdh-new-hire-main_New Hire Scheduler",
+          "href": "http://anypoint.mulesoft.com:8080/api/applications/workday-to-wdh-user-sync-dev/schedules/6463dd2319827176cc213209_workday-to-wdh-new-hire-main_workday-to-wdh-new-hire-main",
+          "lastRun": "2024-07-02T03:23:01.800Z",
+          "enabled": false,
+          "status": "IDLE",
+          "schedule": {
+            "timeUnit": "milliseconds",
+            "period": -1,
+            "cronExpression": "0 23 3,17,23 * * ?"
+          },
+          "run-href": "http://anypoint.mulesoft.com:8080/api/applications/workday-to-wdh-user-sync-dev/schedules/6463dd2319827176cc213209_workday-to-wdh-new-hire-main_workday-to-wdh-new-hire-main/run"
+        },
+        {
+          "id": "6463dd2319827176cc213209_workday-to-wdh-short-term-time-off-sync-main_workday-to-wdh-short-term-time-off-sync-main",
+          "flow": "workday-to-wdh-short-term-time-off-sync-main",
+          "name": "workday-to-wdh-short-term-time-off-sync-main_Short Term Time Off Scheduler",
+          "href": "http://anypoint.mulesoft.com:8080/api/applications/workday-to-wdh-user-sync-dev/schedules/6463dd2319827176cc213209_workday-to-wdh-short-term-time-off-sync-main_workday-to-wdh-short-term-time-off-sync-main",
+          "lastRun": "2024-07-02T03:23:01.722Z",
+          "enabled": false,
+          "status": "IDLE",
+          "schedule": {
+            "timeUnit": "milliseconds",
+            "period": -1,
+            "cronExpression": "0 23 3,18,23 * * ?"
+          },
+          "run-href": "http://anypoint.mulesoft.com:8080/api/applications/workday-to-wdh-user-sync-dev/schedules/6463dd2319827176cc213209_workday-to-wdh-short-term-time-off-sync-main_workday-to-wdh-short-term-time-off-sync-main/run"
+        },
+        {
+          "id": "6463dd2319827176cc213209_workday-to-wdh-supervisor-org-hierarchy-sync-main_workday-to-wdh-supervisor-org-hierarchy-sync-main",
+          "flow": "workday-to-wdh-supervisor-org-hierarchy-sync-main",
+          "name": "workday-to-wdh-supervisor-org-hierarchy-sync-main_Org Hierarchy Scheduler",
+          "href": "http://anypoint.mulesoft.com:8080/api/applications/workday-to-wdh-user-sync-dev/schedules/6463dd2319827176cc213209_workday-to-wdh-supervisor-org-hierarchy-sync-main_workday-to-wdh-supervisor-org-hierarchy-sync-main",
+          "lastRun": "2024-07-02T03:23:01.857Z",
+          "enabled": false,
+          "status": "IDLE",
+          "schedule": {
+            "timeUnit": "milliseconds",
+            "period": -1,
+            "cronExpression": "0 23 3,18,23 * * ?"
+          },
+          "run-href": "http://anypoint.mulesoft.com:8080/api/applications/workday-to-wdh-user-sync-dev/schedules/6463dd2319827176cc213209_workday-to-wdh-supervisor-org-hierarchy-sync-main_workday-to-wdh-supervisor-org-hierarchy-sync-main/run"
+        },
+        {
+          "id": "6463dd2319827176cc213209_workday-to-wdh-termination-main_workday-to-wdh-termination-main",
+          "flow": "workday-to-wdh-termination-main",
+          "name": "workday-to-wdh-termination-main_Pre Terminated Scheduler",
+          "href": "http://anypoint.mulesoft.com:8080/api/applications/workday-to-wdh-user-sync-dev/schedules/6463dd2319827176cc213209_workday-to-wdh-termination-main_workday-to-wdh-termination-main",
+          "lastRun": "2024-07-02T03:15:04.461Z",
+          "enabled": false,
+          "status": "IDLE",
+          "schedule": {
+            "timeUnit": "milliseconds",
+            "period": -1,
+            "cronExpression": "0 15 3,18,23 * * ?"
+          },
+          "run-href": "http://anypoint.mulesoft.com:8080/api/applications/workday-to-wdh-user-sync-dev/schedules/6463dd2319827176cc213209_workday-to-wdh-termination-main_workday-to-wdh-termination-main/run"
+        }
+      ]
+    }

@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const port = 3000;
 const cors = require('cors');
+const fs = require('node:fs');
 app.get('/', (req, res) => {
   res.send('Hello, World!');
 });
@@ -1179,7 +1180,7 @@ const sixMonths = {
 }
 
 
-app.get('/getDashboardCharts', async (req, res) => {
+app.get('/api/getDashboardCharts/:appName', async (req, res) => {
   const duration = parseInt(req.query.duration);
 
   if (isNaN(duration)) {
@@ -1201,7 +1202,7 @@ app.get('/getDashboardCharts', async (req, res) => {
   }
 
 });
-app.get('/getDashboardGridData', async (req, res) => {
+app.get('/api/getDashboardGrid/:appName', async (req, res) => {
   const duration = parseInt(req.query.duration);
   const startIndex = (req.query.startIndex);
   const pageSize = (req.query.pageSize);
@@ -1213,6 +1214,26 @@ app.get('/getDashboardGridData', async (req, res) => {
   // }
   return res.status(200).json(gridResponse)
 })
+
+app.get('/api/getAllApplicationDetails', async (req, res) => {
+  const data = fs.readFileSync('./responses/applications.txt', 'utf8');
+  return res.status(200).json(JSON.parse(data))
+})
+
+app.get('/api/getSchedulerDetails/:appName', async (req, res) => {
+  const data = fs.readFileSync('./responses/schedules.txt', 'utf8');
+  return res.status(200).json(JSON.parse(data))
+})
+
+app.get('/api/getApplicationDeploymentIds/:appName', async (req, res) => {
+  const data = fs.readFileSync('./responses/deploymentIds.txt', 'utf8');
+  return res.status(200).json(JSON.parse(data))
+})
+
+// app.get('/api/getSchedulerDetails/:appName', async (req, res) => {
+//   const data = fs.readFileSync('./responses/schedules.txt', 'utf8');
+//   return res.status(200).json(JSON.parse(data))
+// })
 
 app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}`);
