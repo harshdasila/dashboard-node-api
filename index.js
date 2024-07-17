@@ -1230,6 +1230,11 @@ app.get('/api/getApplicationDeploymentIds/:appName', async (req, res) => {
   return res.status(200).json(JSON.parse(data))
 })
 
+app.get('/api/getLogsByInstanceId/:appName', async (req, res) => {
+  const data = fs.readFileSync('./responses/logs.txt', 'utf8');
+  return res.status(200).json(JSON.parse(data))
+})
+
 // app.get('/api/getSchedulerDetails/:appName', async (req, res) => {
 //   const data = fs.readFileSync('./responses/schedules.txt', 'utf8');
 //   return res.status(200).json(JSON.parse(data))
